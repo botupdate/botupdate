@@ -1,1 +1,0 @@
-androidboot.hardware=cheets androidboot.container=1 androidboot.dev_mode=0 androidboot.disable_runas=1 androidboot.vm=0 androidboot.debuggable=0 androidboot.lcd_density=160 androidboot.native_bridge=libhoudini.so androidboot.arc_file_picker=0 androidboot.arc_custom_tabs=0 androidboot.arc_print_spooler=0 androidboot.chromeos_channel=stable androidboot.boottime_offset=16972139923
