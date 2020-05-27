@@ -1,0 +1,3 @@
+# identify myself
+
+awk -F" |," '{for(i=1;i<=NF;i++){X=i>1?X OFS s1 tolower($i) s2:tolower($i)}} END{print X}' s1="(," s2=",)"  Input_file

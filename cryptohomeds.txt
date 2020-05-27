@@ -1,0 +1,42 @@
+cryptohome_status
+{
+   "installattrs": {
+      "first_install": false,
+      "initialized": true,
+      "invalid": false,
+      "lockbox_index": 536870916,
+      "lockbox_nvram_version": 2,
+      "secure": true,
+      "size": 0,
+      "version": 1
+   },
+   "mounts": [ {
+      "enterprise": false,
+      "keysets": [ {
+         "current": true,
+         "index": 0,
+         "last_activity": -563357972,
+         "ok": true,
+         "scrypt": false,
+         "tpm": true
+      } ],
+      "mounted": true,
+      "owner": "2b145e9a6c667d1ca796179300ed5ae73fe3f28d",
+      "type": "dircrypto"
+   } ],
+   "tpm": {
+      "being_owned": false,
+      "can_connect": true,
+      "can_decrypt": true,
+      "can_encrypt": true,
+      "can_load_srk": true,
+      "can_load_srk_pubkey": true,
+      "enabled": true,
+      "has_context": true,
+      "has_cryptohome_key": true,
+      "has_key_handle": true,
+      "last_error": 0,
+      "owned": true,
+      "srk_vulnerable_roca": false
+   }
+}
