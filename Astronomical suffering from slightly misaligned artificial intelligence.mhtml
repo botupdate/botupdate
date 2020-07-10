@@ -1,0 +1,452 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://reducing-suffering.org/near-miss/#SignFlip
+Subject: Astronomical suffering from slightly misaligned artificial intelligence
+Date: Thu, 18 Jun 2020 04:34:53 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--0UPyPELIfZDyyq4VN8f8Dh4UKw0d0KFf77ZALnnyTt----"
+
+
+------MultipartBoundary--0UPyPELIfZDyyq4VN8f8Dh4UKw0d0KFf77ZALnnyTt----
+Content-Type: text/html
+Content-ID: <frame-04474E3CD5977762671B189E7F054560@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://reducing-suffering.org/near-miss/#SignFlip
+
+<!DOCTYPE html><html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Explanation: "[Is the viewport meta tag really necessary?](https://stackoverflow.com/questions/14775195/is-the-viewport-meta-tag-really-necessary)". -->
+<link rel="stylesheet" href="https://briantomasik.com/css/style.css">
+<link rel="icon" href="https://reducing-suffering.org/favicons/full-size.png">
+<title>Astronomical suffering from slightly misaligned artificial intelligence</title>
+</head>
+<body>
+<header>
+<nav>
+<a href="https://reducing-suffering.org/" rel="home">Home</a> &nbsp; â€¢ &nbsp; <a href="https://briantomasik.com/contact-me/">Contact</a>
+</nav>
+
+<h1>Astronomical suffering from slightly misaligned artificial intelligence</h1>
+</header>
+
+<article>
+<div class="byline_and_dates">
+<p class="author">By Brian Tomasik</p>
+<p class="publication_dates">First published: <time datetime="2018-12-13">2018 Dec 13</time>. Last nontrivial update: <time datetime="2019-03-18">2019 Mar 18</time>.</p>
+</div>
+<h2><span id="Summary">Summary</span></h2>
+<p>When attempting to align artificial general intelligence (AGI) with human values, there's a possibility of getting alignment mostly correct but slightly wrong, possibly in disastrous ways. Some of these "near miss" scenarios could result in astronomical amounts of suffering. In some near-miss situations, better promoting your values can make the future worse according to your values.</p>
+<div id="table_of_contents"><!-- This table-of-contents structure is based on the "Table of Contents Plus" WordPress plugin by Michael Tran. -->
+<h2>Contents</h2>
+<ul>
+<li><a href="https://reducing-suffering.org/near-miss/#Summary">Summary</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Introduction">Introduction</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#A_note_on_terminology">A note on terminology</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Examples_of_near_misses">Examples of near misses</a>
+<ul>
+<li><a href="https://reducing-suffering.org/near-miss/#SignFlip">SignFlip</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#MisconfiguredMinds">MisconfiguredMinds</a></li>
+</ul></li>
+<li><a href="https://reducing-suffering.org/near-miss/#When_spreading_your_values_is_harmful">When spreading your values is harmful</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#But_surely_spreading_your_values_is_still_positive_in_expectation">But surely spreading your values is still positive in expectation?</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Negative_vs_classical_utilitarianism">Negative vs classical utilitarianism</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#A_Laffer-type_curve_for_alignment_research">A Laffer-type curve for alignment research</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Is_near_miss_worse_than_wide_miss_or_no_miss">Is near miss worse than wide miss or no miss?</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Near_misses_in_human_contexts">Near misses in human contexts</a>
+<ul>
+<li><a href="https://reducing-suffering.org/near-miss/#mercy_releases">Another example: mercy releases</a></li>
+</ul></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Near-miss_AGIs_vs_human_value_drift">Near-miss AGIs vs human value drift</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Acknowledgments">Acknowledgments</a></li>
+<li><a href="https://reducing-suffering.org/near-miss/#Footnotes">Footnotes</a></li>
+</ul>
+</div>
+
+<h2><span id="Introduction">Introduction</span></h2>
+<p>Human values occupy an extremely narrow subset of the set of all possible values. One can imagine a wide space of artificially intelligent minds that optimize for things very different from what humans care about. A toy example is a so-called "paperclip maximizer" AGI, which aims to maximize the expected number of paperclips in the universe. Many approaches to AGI alignment hope to teach AGI what humans care about so that AGI can optimize for those values.</p>
+<p>As we move AGI away from "paperclip maximizer" and closer toward caring about what humans value, we increase the probability of getting alignment almost but not quite right, which is called a "near miss". It's plausible that many near-miss AGIs could produce much more suffering than paperclip-maximizer AGIs, because some near-miss AGIs would create lots of creatures closer in design-space to things toward which humans feel sympathy.</p>
+<p>See also <a href="https://www.youtube.com/watch?v=w7nsv4n_Bgk&amp;t=9m9s" title="'Will space colonization increase suffering?' on the channel 'Brian Tomasik'">an explanation</a> of near misses by David Althaus from 2014.</p>
+<h2><span id="A_note_on_terminology">A note on terminology</span></h2>
+<p>One of Merriam-Webster's definitions for "near miss" <a href="https://www.merriam-webster.com/dictionary/near%20miss" title="'Near Miss | Definition of Near Miss by Merriam-Webster'">is</a> "something that falls just short of success". This is the meaning I intend in this essay.</p>
+<p>The term "near miss" as applied to ordinary human accidents refers to "an incident in which no property was damaged and no personal injury was sustained, but where, given a slight shift in time or position, damage or injury easily could have occurred" (<a href="https://en.wikipedia.org/wiki/Near_miss_(safety)">Wikipedia "Near miss (safety)"</a>). For AGI alignment, "near miss" is sort of the opposite idea: <em>because</em> alignment slightly missed the target, a great deal of injury and suffering may result.</p>
+<h2><span id="Examples_of_near_misses">Examples of near misses</span></h2>
+<p>Following are two examples of near-miss scenarios. The first, SignFlip, is a toy example that's hopefully unrealistic but helps illustrate the basic idea. The second, MisconfiguredMinds, is perhaps slightly more realistic, though it too should probably be regarded as overly simplistic.</p>
+<h3><span id="SignFlip">SignFlip</span></h3>
+<p>Perhaps the prototypical toy example of a near miss is the following. Imagine an AGI that contains a perfect representation of humanity's utility function <i>V</i> (assuming for the sake of this example that humanity even has a single, coherent utility function). Humans tell the AGI to go and "maximize <i>V</i>". However, suppose that "a cosmic ray flips the sign of the AGI's effective utility function" (<a href="https://arbital.com/p/hyperexistential_separation/" title="'Separation from hyperexistential risk'">"Separation ...", n.d.</a>) to <i>-V</i>. The AGI will now maximize <i>-V</i>, which is equivalent to minimizing <i>V</i>. Minimizing human values on a cosmic scale would be horrifyingâ€”by definition the worst possible outcome within our future light cone. The AGI would spread through all the galaxies within its reach, filling them with intense torment, death, and other things humans regard as evil.</p>
+<p>The issue of cosmic rays could be overcome using, say, error-correcting-code memory. Slightly more worrisome might be human sign errors. In college, I recall some physics problems where I got the right answer except I was missing a minus sign, or I had a minus sign when I shouldn't have. Of course, this risk too could be mitigated with various sanity checks, redundant specification of the utility function by independent development teams, etc.</p>
+<p>A real-world example of a sign-flipping kind of error, at the level of written instructions rather than utility functions, was the hacking of the emails of John Podesta, chairman of the 2016 US presidential campaign of Hillary Clinton. <a href="https://thehill.com/policy/cybersecurity/310234-typo-may-have-caused-podesta-email-hack" title="'Typo led to Podesta email hack: report | TheHill'">Uchill (2016)</a>:</p>
+<blockquote><p>
+Podesta received an email purportedly from Google saying hackers had tried to infiltrate his Gmail account. When an aide emailed the campaignâ€™s IT staff to ask if the notice was real, Clinton campaign aide Charles Delavan replied that it was â€œa legitimate email" and that Podesta should â€œchange his password immediately.â€</p>
+<p>Instead of telling the aide that the email was a threat and that a good response would be to change his password directly through Googleâ€™s website, he had inadvertently told the aide to click on the fraudulent email and give the attackers access to the account.</p>
+<p>Delavan told the Times he had intended to type "illegitimate,â€ a typo he still has not forgiven himself for making.</p></blockquote>
+<p>If Delavan had written either a perfectly correct reply or a gibberish reply, things would have been fine. It was only by writing an almost-perfect-but-slightly-wrong reply that he caused the opposite of what was intended.</p>
+<h3><span id="MisconfiguredMinds">MisconfiguredMinds</span></h3>
+<p>Suppose that humans ask their AGI to fill the future light cone with as many happy creatures as possible. The AGI attempts to do this, but its interpretation of "happy minds" is slightly askew, causing it to create brains that are a bit abnormal. These minds might suffer from severe mental-health problems that cause very negative quality of life.</p>
+<p>Fortunately, it seems the density of suffering in MisconfiguredMinds would be vastly lower than in SignFlip, since in MisconfiguredMinds, the suffering is only incidental rather than directly optimized for. However, a cosmos filled with minds enduring depression, anxiety, <a href="https://www.youtube.com/watch?v=KYHVbLLO2bU" title="'Schizophrenia Simulated' on the channel 'Were We Lied To'">schizophrenia</a>, or other mental illnesses would still be a terrifying outcome.</p>
+<h2><span id="When_spreading_your_values_is_harmful">When spreading your values is harmful</span></h2>
+<p>Some near-miss scenarios, especially SignFlip, fall under the umbrella of "utility-function negation". In these situations, promoting a utility function <i>U</i> tends to make things worse according to <i>U</i>. The more precisely humans specify their values in SignFlip, the worse the outcome, because the AGI can more precisely optimize for the minimum of those values. If you hold a unique moral viewpoint that most of humanity doesn't, in SignFlip scenarios it's probably best if you <em>don't</em> promote that viewpoint. For example, if you think insects deserve moral consideration, while most of humanity doesn't care about insects, in SignFlip scenarios, if you succeed in convincing more people to care about insects, you make it more likely that astronomical numbers of tormented ants and cockroaches will be part of our future.</p>
+<p>Could promoting concern for non-human animals be bad in the MisconfiguredMinds scenario too? Maybe. One reason is that non-human animals might be cheaper to compute per unit of morally valued sentience. For example, a cow has about 3 billion neurons (<a href="https://mitpress.mit.edu/books/human-advantage" title="_The Human Advantage: A New Understanding of How Our Brain Became Remarkable_">Herculano-Houzel 2016</a>, cited in <a href="http://reflectivedisequilibrium.blogspot.com/2013/09/how-is-brain-mass-distributed-among.html" title="'*Reflective Disequilibrium*: How are brain mass (and neurons) distributed among humans and the major farmed land animals?'">Shulman 2013</a>), compared with 85 billion for a human, so perhaps it would be possible to simulate about 85/3 = 28 cows for the cost of simulating one human.<sup><a href="https://reducing-suffering.org/near-miss/#link_ajs-fn-id_1-14185" id="back_ajs-fn-id_1-14185">a</a></sup> But many animal advocates value a cow more than 1/28 as much as a human. So relative to such values, more total sentience could be created by simulating cows than simulating humans. Thus, if MisconfiguredMinds is realized, a cow-filled future would contain more total sentience and therefore more total suffering (relative to the values of many animal advocates) than a human-filled MisconfiguredMinds future.</p>
+<p>This point could be even more pronounced in the case of antisubstratism activism, assuming that non-biological sentience can be produced much more efficiently than biological sentience, relative to the values of antisubstratist advocates. If biological chauvinism prevails, then a MisconfiguredMinds future would "only" contain as many biological minds as can be fit inside our future light cone, while if antisubstratism prevails, a much larger number of suffering minds could be created within our future light cone.</p>
+<h2><span id="But_surely_spreading_your_values_is_still_positive_in_expectation">But surely spreading your values is still positive in expectation?</span></h2>
+<p>Despite the risks from near misses, it's tempting to assume that spreading one's values is still probably a good thing, since in non-near-miss scenarios, it's quite valuable for future generations of humans and AGIs to care about what you care about. I think this is often true, but it depends.</p>
+<p>If you're trying to maximize something that's currently rare, such as paperclips or happiness, then near misses may not be a huge concern, because there's not much room "to go down" if the utility function gets negated. For example, most future scenarios involve minuscule numbers of paperclips relative to what could be produced. Humans will continue using paperclips for a few decades, and perhaps some posthuman simulations would contain some paperclips, but otherwise, most futures will be pretty devoid of these office products. Therefore, if paperclip-maximization values get mutated into paperclip-minimization values, the future light cone would lose only a tiny number of paperclips relative to the default trajectory. When comparing against the astronomical numbers of paperclips that could be produced if paperclip-maximization values don't mutate, the near-miss risk seems negligible.</p>
+<p>However, if you're aiming to <em>minimize</em> something that's currently rare in the universe, such as suffering, then there's enormous room to make things worse and only marginal room to make things better. By default, perhaps our future light cone will in expectation contain only, say, 10<sup>-6</sup> as much suffering as it would be possible to create. Since SignFlip would create as much suffering as possible, if the probability of SignFlip is anything greater than 10<sup>-6</sup>, then the existence of values that oppose suffering would be net negative in expected value, according to this simplistic calculation.</p>
+<p>I don't have an all-things-considered opinion on whether this consideration in fact makes concern for suffering net negative. I suspect that concern for suffering is quite positive at least among the subset of people who can do further research on these sorts of quandaries, and broader societal concern for suffering helps to create more suffering-focused researchers. However, it's less clear whether it's positive to explicitly try to specify concern for suffering into an AGI.</p>
+<h2><span id="Negative_vs_classical_utilitarianism">Negative vs classical utilitarianism</span></h2>
+<p>In cases where better specifying your utility function is harmful, should negative utilitarians actually favor classical utilitarianism, because it's further from what they value? At least in the case of SignFlip, it wouldn't make a difference, because negative and classical utilitarianism share the same minimum of the utility function. Better than either negative or classical utilitarianism for the SignFlip scenario would be "positive utilitarianism"â€”the view that only happiness matters, not suffering. Positive utilitarianism would allow for the upside of happiness creation in non-near-miss scenarios without the downside of optimizing for suffering in the SignFlip scenario. (Perhaps this is the only good argument for strict positive utilitarianism. :) )</p>
+<p>For the MisconfiguredMinds scenario, negative utilitarianism would best avoid the risk, because negative utilitarians wouldn't try to fill the future light cone with happy minds to begin with, while classical and positive utilitarians probably would. So which axiology is safest in the face of a near miss depends on the specific scenario.</p>
+<h2><span id="A_Laffer-type_curve_for_alignment_research">A Laffer-type curve for alignment research</span></h2>
+<p>Both aligned and unaligned AGIs could produce astronomical suffering in a variety of different ways. However, if we focus just on near-miss risks, then we see something like the <a href="https://en.wikipedia.org/wiki/Laffer_curve">Laffer curve</a> for near-miss risk as a function of the degree to which humanity does AGI-alignment research. If no alignment research were done, resulting in a paperclip-maximizer-type future, then near-miss risk would be basically zero, because AGI development was not pointed in the direction of human values at all. Meanwhile, if perfect alignment research were done, then AGI would be fully aligned with human values, and there would be no near miss. In between these two extremes, there is near-miss risk, with a maximum at some point.<br>
+<span class="full_width_image"><img src="https://reducing-suffering.org/wp-content/uploads/near_miss_Laffer_curve.png" title="Brian Tomasik drew this graph on 2018 Dec 13. It's released into the public domain worldwide."></span><br>
+Whether <em>further</em> alignment research on the margin reduces or increases near-miss risk then depends on whether the status quo is to the left or to the right of the point of maximum near-miss risk. Of course, it's also worth remembering that for many value systems, despite near-miss risks, there are major upsides to doing AGI alignment, because positive values like happiness wouldn't be optimized for without it.</p>
+<p>If one is concerned about near misses, then there are probably more leveraged ways to have an impact than merely shifting the amount of standard AGI-alignment research that humanity does up or down. In particular, one could push for more research on the topic of avoiding near misses, including the principle of "<a href="https://arbital.com/p/hyperexistential_separation/" title="'Separation from hyperexistential risk'">Separation from hyperexistential risk</a>".</p>
+<h2><span id="Is_near_miss_worse_than_wide_miss_or_no_miss">Is near miss worse than wide miss or no miss?</span></h2>
+<p>It's important to remember regarding the above graph that the y-axis only shows near-miss risk, not other forms of suffering risk. I think it's not obvious that near-miss AGIs pose more total suffering risk than paperclipping AGIs or human-aligned AGIs. For example:</p>
+<ul>
+<li>While the MisconfiguredMinds AGI creates enormous suffering, perhaps it correctly reflects human values enough that it knows to minimize creation of humans and animals enduring the absolute worst forms of agony, such as being eaten alive or physically tortured, while a paperclipping AGI would have no intrinsic inhibitions against simulating humans and animals in unbearable pain as part of instrumentally useful computational tasks.</li>
+<li>Many near-miss AGIs might distort the way humans understand sentience, causing these AGIs to create vastly less sentience (and therefore perhaps less suffering) than a human-aligned AGI would, especially if the human-aligned AGI doesn't embody purely angelic human impulses.</li>
+</ul>
+<p>That said, a certain subset of near-miss AGIsâ€”namely, SignFlip and more realistic AGIs in the neighborhood of SignFlipâ€”could be so devastating that even if their likelihood is quite low, they may cause us to conclude that near-miss AGIs are indeed particularly dangerous relative to other AGIs. However, I don't know enough about this topic to have firm opinions yet.</p>
+<h2><span id="Near_misses_in_human_contexts">Near misses in human contexts</span></h2>
+<p>A generic definition of a "near-miss catastrophe" could be a situation in which, when agent A tries to specify a goal or outcome to agent B, there's a slight modification of the original intention in a way that causes a worse outcome than if A hadn't tried to specify anything to B. Situations like this are actually somewhat common in everyday life, which helps to show that the idea of near-miss risks is not pure speculation.</p>
+<p>Consider the following example. Animal advocate Anthony wants to spread compassion for other sentient creatures, so that more humans will want to protect animals and the environment. Among the people whom Anthony persuades is Briana, who cares deeply about suffering. Briana notices how much intractable misery wilderness contains and reasons that the best way to reduce this misery is to reduce wilderness itself. She campaigns for reduction of wild-animal habitats, to the horror of Anthony. This is a near-miss catastrophe relative to Anthony's values since it was only because Briana cared so much about animals that she focused on preventing their existence. Had Briana instead spent her time on some unrelated topic like stamp collecting, things would have been fine from Anthony's perspective.</p>
+<p>So near-miss catastrophes can happen even outside the scenario of a singleton AGI going off and optimizing a specified utility function. This suggests that near-miss dynamics could be worrisome even in "soft AGI takeoff" trajectories, although further work should be done to flesh out such scenarios.</p>
+<h3 id="mercy_releases">Another example: mercy releases</h3>
+<p>The following quote describes another example of a near miss in the human world. <a href="https://news.nationalgeographic.com/2017/01/wildlife-watch-mercy-release-buddhist-china-illegal-trade/" data-tooltip="&quot;A Buddhist Tradition to Save Animals Has Taken an Ugly Turn&quot; BY JANI ACTMAN. PUBLISHED JANUARY 23, 2017.">Actman (2017)</a>:</p>
+<blockquote>
+<p>according to He Yun and other experts, a tradition that once encouraged the spontaneous release of doomed animals has today become a commercial enterprise in which people buy animals specifically to release them. The process may injureâ€”or even killâ€”them. [...]</p>
+<p>â€œthe animals are often trapped, kept in appalling conditions, released, and often trapped again,â€ Palmer says. An <a href="http://www.polsci.ucsb.edu/faculty/stokes/docs/ShiuStokesAnimalRelease.pdf">article</a> referenced in the journal Contemporary Buddhism described a situation in which Buddhist organizations ordered birds en masse from retailers for release, only for hunters to wait to catch the freed birds and begin the cycle all over again.</p>
+</blockquote>
+<p>If humans didn't care about the welfare of animals at all, mercy releases also wouldn't exist. Of course, presumably human concern for animals reduces more suffering overall than it creates in our current world. But the same may not be true for futuristic near-miss scenarios, where the possible downside of caring about suffering could far exceed the possible upside.</p>
+<h2><span id="Near-miss_AGIs_vs_human_value_drift">Near-miss AGIs vs human value drift</span></h2>
+<p>One crude model of the values of a near-miss AGI could be human values plus some random noise. If random value drift by a near-miss AGI is potentially quite worrisome, then shouldn't random value drift by future generations of humans also be worrisome?</p>
+<p>I think human value drift is also somewhat dangerous but perhaps not as much as value drift in near-miss AGIs. The reason is that human brains are biologically quite similar to one another, and basic human instincts seem likely to prevent the very worst forms of value drift. For example, it seems hard to imagine most humans any time soon wanting to create as much suffering as is physically possible. But if humans have failed to impart robust "do what I mean" common sense to an AGI, that AGI could make catastrophic errors like sign flipping (or more realistic variants thereof), without the guard rails of human psychology. (The AGI would surely eventually understand what humans intended for it to do, but the question is whether the AGI <em>cares</em> about those intentions.)</p>
+<p>That said, I do think value drift even within the human memesphere could be quite bad in some cases. For example, imagine if traditional religious values became more popular among the world's elites. For thousands of years and still today, many Christians and Muslims have embraced the idea that it's not only acceptable but part of omnibenevolent justice to eternally torture most of humanity for failing to be born into a culture that believes and practices the right religion.</p>
+<p>Even among modern cosmopolitan liberals, vengeful impulses can rear their heads from time to time. During 2017-2018, I saw many progressives in Internet comments express schadenfreude regarding the personal sufferings of members of the Trump administration. (I'm not judging people for feeling schadenfreude; I feel it occasionally myself. In any case, it's usually harmless and somewhat beyond conscious control. I'm just pointing out that we humans have a lot of vicious impulses hiding in our brains.)</p>
+<p>Still, it's plausible that humanity is, at least for the next few decades, on a positive trajectory with respect to changing values. For example, belief in traditional religious teachings will probably continue to decline in the long term as the world becomes more educated, though there are many ups and downs along the way.</p>
+<h2><span id="Acknowledgments">Acknowledgments</span></h2>
+<p>This piece benefited from past discussions with Lukas Gloor, Victor Li, and others. A few sections were inspired by critiques from Tobias Baumann. A conversation with Tse Yip Fai about mercy releases inspired me to add the section on that topic.</p>
+<h2><span id="Footnotes">Footnotes</span></h2>
+<ol id="footnotes">
+<li><a id="link_ajs-fn-id_1-14185"></a>This is just a crude calculation for illustration. Perhaps the cost of simulating a brain is more related to its number of synapses, total mass, or something else.&nbsp;&nbsp;<a href="https://reducing-suffering.org/near-miss/#back_ajs-fn-id_1-14185">(back)</a></li>
+</ol>
+</article>
+<footer>
+<hr>
+<p><a href="https://reducing-suffering.org/" rel="home">Home</a>
+ &nbsp; â€¢ &nbsp; <a href="https://reducing-suffering.org/near-miss/#">Back to top</a>
+ &nbsp; â€¢ &nbsp; <a href="https://briantomasik.com/about-this-site/">About</a>
+ &nbsp; â€¢ &nbsp; <a href="https://briantomasik.com/privacy/">Privacy</a>
+ &nbsp; â€¢ &nbsp; <a href="https://briantomasik.com/about-this-site/#site_search">Search</a></p>
+</footer>
+
+</body></html>
+------MultipartBoundary--0UPyPELIfZDyyq4VN8f8Dh4UKw0d0KFf77ZALnnyTt----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://briantomasik.com/css/style.css
+
+@charset "utf-8";
+
+@import url("movie-scripts-and-dialogues.css");
+
+@import url("tooltip.css");
+
+:root { --nav_and_footer_link_color: rgb(100, 100, 100); }
+
+* { box-sizing: border-box; }
+
+abbr { border-bottom: 2px dotted pink; }
+
+a { text-decoration: none; }
+
+a:hover { background-color: rgb(255, 255, 204); text-decoration: underline; }
+
+video { width: 70%; margin: 1em; }
+
+q { quotes: "\"" "\"" "'" "'"; }
+
+body { color: rgb(40, 40, 40); max-width: 825px; padding: 3% 4%; margin: auto; font-size: 110%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; line-height: 1.5; }
+
+pre { white-space: pre-wrap; border: 1px solid rgb(234, 234, 234); padding: 2%; }
+
+h1, h2, h3, h4, h5, h6 { color: rgb(4, 54, 60); }
+
+h2, h3, h4, h5, h6 { padding-top: 0.4em; }
+
+h1 { font-size: 155%; }
+
+h2 { font-size: 120%; border-bottom: 2px solid rgb(238, 238, 238); }
+
+h3 { font-size: 113%; }
+
+h4 { font-size: 107%; }
+
+h5 { font-size: 101%; }
+
+h6 { font-size: 96%; }
+
+li { margin: 0.5em 0em; }
+
+img { width: 35%; margin: 2%; }
+
+blockquote { background-color: rgb(249, 249, 250); padding: 0.4em 0.6em 0.4em 0.7em; }
+
+blockquote p { margin: 0em; }
+
+blockquote p + p { margin-top: 1em; }
+
+table { margin-left: auto; margin-right: auto; border-collapse: collapse; }
+
+table, th, td { border: 1px solid black; padding: 0.5em; }
+
+textarea { width: 100%; height: 10em; }
+
+input { margin: 1%; font-size: 90%; width: 100%; }
+
+nav { text-align: right; font-size: 80%; }
+
+nav a { color: var(--nav_and_footer_link_color); }
+
+footer { font-size: 60%; }
+
+footer a { color: var(--nav_and_footer_link_color); }
+
+button { background-color: deepskyblue; color: white; padding: 0.5%; font-size: 90%; border-radius: 10px; transition-duration: 0.4s; }
+
+button:hover { background-color: green; }
+
+#table_of_contents { background-color: rgb(247, 247, 250); padding: 1% 3%; font-size: 95%; border: 0.05em solid rgb(140, 140, 140); }
+
+#table_of_contents h2 { margin-top: 0px; border-bottom: 0px; }
+
+#table_of_contents li { margin: 0px; }
+
+#footnotes { font-size: 90%; list-style-type: lower-alpha; }
+
+.center { display: block; margin-left: auto; margin-right: auto; }
+
+.float_right { float: right; }
+
+.float_left { float: left; }
+
+.width30percent { width: 30%; }
+
+.width40percent { width: 40%; }
+
+.width50percent { width: 50%; }
+
+.width60percent { width: 60%; }
+
+.width70percent { width: 70%; }
+
+.width80percent { width: 80%; }
+
+.width90percent { width: 90%; }
+
+.width100percent { width: 100%; }
+
+.full_width_image img { width: 100%; }
+
+.image20percent img { width: 20%; }
+
+.image30percent img { width: 30%; }
+
+.image40percent img { width: 40%; }
+
+.image50percent img { width: 50%; }
+
+.image60percent img { width: 60%; }
+
+.image70percent img { width: 70%; }
+
+.image80percent img { width: 80%; }
+
+.image90percent img { width: 90%; }
+
+.good { color: green; }
+
+.bad { color: red; }
+
+.byline_and_dates { margin-left: 2%; font-size: 90%; margin-bottom: 0%; }
+
+.byline_and_dates p { margin: 0.5%; }
+
+.input_box_for_a_number { width: 4em; }
+
+.input_box_for_a_short_number { width: 2em; }
+
+.allow_word_breaks { overflow-wrap: break-word; }
+
+.heading_for_a_box { font-weight: 600; }
+
+.informational_notice { background-color: rgb(255, 255, 245); border-left: 0.3em solid rgb(255, 240, 150); padding: 0.1em 0.8em; }
+
+.informational_notice p { margin: 0.7em; }
+
+div.informational_notice { margin: 1em 0em; }
+
+p.informational_notice { padding: 0.4em 1.4em; }
+
+.box_below_summary { background-color: rgb(252, 238, 255); padding: 0.5em 1em; }
+
+.box_for_example_or_definition, .interview_question { background-color: rgb(255, 230, 180); padding: 0.1em 1em; }
+
+p.box_for_example_or_definition, p.interview_question { padding: 0.5em 1em; }
+
+p.interview_question::before { content: "Q: "; }
+
+.box_for_example_or_definition p { margin: 0.9em; }
+
+p.box_for_example_or_definition { padding: 0.4em 1em; }
+
+.in_article_footnote, .in_article_footnote_full_width { background-color: rgb(200, 255, 210); border-radius: 0.5em; margin: 0.5em 0.7em; }
+
+.in_article_footnote { width: 50%; float: right; }
+
+div.in_article_footnote { padding: 0.1em 0.7em; }
+
+span.in_article_footnote { padding: 0.4em 0.7em; }
+
+div.in_article_footnote_full_width { padding: 0.1em 1.2em; }
+
+p.in_article_footnote_full_width { padding: 0.5em 0.7em; }
+
+.in_article_footnote p { margin: 0.6em; }
+
+.full_line_equation { margin: 2% 7%; }
+
+.full_line_equation br { line-height: 180%; }
+
+.equation_name { background-color: rgb(183, 255, 144); }
+
+.epigraph_quote { margin-left: 8%; margin-right: 8%; font-style: italic; margin-bottom: 0.3em; }
+
+.epigraph_quote em, .epigraph_quote i, .epigraph_quote cite { font-style: normal; }
+
+.epigraph_author { margin-top: 0em; margin-left: 12%; margin-right: 12%; }
+
+.epigraph_author::before { content: "â€”"; }
+
+.reply { margin-left: 7%; }
+
+.seventh_grade_social_studies_outline { list-style-type: upper-roman; }
+
+.seventh_grade_social_studies_outline ol { list-style-type: upper-alpha; }
+
+.progress_counter { width: 50%; border: 2px solid purple; padding: 20px; background-color: rgb(255, 255, 255); text-align: center; display: none; }
+
+.always_center_of_page { position: fixed; left: 25%; top: 40%; z-index: 1; }
+------MultipartBoundary--0UPyPELIfZDyyq4VN8f8Dh4UKw0d0KFf77ZALnnyTt----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://briantomasik.com/css/movie-scripts-and-dialogues.css
+
+@charset "utf-8";
+
+.conversation { background-color: rgb(251, 247, 255); margin-left: 13%; margin-right: 13%; padding: 0.3em; }
+
+.conversation p { margin: 0.5em; }
+
+.dialogue_for_one_person + .dialogue_for_one_person { margin-top: 2em; }
+
+.name_of_a_character { font-variant: small-caps; text-align: center; }
+
+.parenthetical_note { font-style: oblique; }
+------MultipartBoundary--0UPyPELIfZDyyq4VN8f8Dh4UKw0d0KFf77ZALnnyTt----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://briantomasik.com/css/tooltip.css
+
+@charset "utf-8";
+
+:root { --tooltip_width: 130px; }
+
+@media (min-width: 875px) {
+  :root { --tooltip_width: 230px; }
+}
+
+[data-tooltip] { position: relative; z-index: 2; cursor: pointer; }
+
+[data-tooltip]::before, [data-tooltip]::after { visibility: hidden; opacity: 0; pointer-events: none; }
+
+[data-tooltip]::before { transition: opacity 0.5s ease 0s; position: absolute; bottom: 150%; left: 50%; margin-bottom: 5px; margin-left: calc(-1 * var(--tooltip_width) / 2); padding: 7px; width: var(--tooltip_width); border-radius: 3px; background-color: rgb(255, 252, 243); color: rgb(20, 20, 20); content: attr(data-tooltip); font-size: 70%; text-decoration: none; }
+
+[data-tooltip]::after { position: absolute; bottom: 150%; left: 50%; margin-left: -5px; width: 0px; border-top: 5px solid rgb(146, 64, 0); border-right: 5px solid transparent; border-left: 5px solid transparent; content: " "; font-size: 0px; line-height: 0; }
+
+[data-tooltip]:hover::before, [data-tooltip]:hover::after { visibility: visible; opacity: 1; }
+------MultipartBoundary--0UPyPELIfZDyyq4VN8f8Dh4UKw0d0KFf77ZALnnyTt----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://reducing-suffering.org/wp-content/uploads/near_miss_Laffer_curve.png
+
+‰PNG
+
+   IHDR  ¸  ö   Õ–·9  nnIDATxÚì½L¼_^Øû‰áÒL#ih‚‘4$s‰!6!I‰r+ñ’-&XÙ„v‰¥+~/&4¢—DÒ¥u®Å•nh»˜E¥»¸—ÖÑ‹²v²¥-YÑËfYÅÈ½NtÌâvT¼;nF3÷=œı¾÷|ÎsÎ330Ìg^¯<ù„ÏÌ3ÏsÎyçœ×9Ïùñ¦     Ş     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2      Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2      Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢­ãúúúğ]vww·ŞE>'q    åîEœøíím    QF”]äs    QF”e    De    De    De    De    De    De    De    De    De    @”e    @”C:F”   ep9<<ôŠòÆÆ‰   €(#Ê.KKK$    ¢Œ(#Ê    ˆ2 Ê    ˆ2 Ê    ˆ2 Ê    ˆ2 Ê    ˆ2 Ê    ˆ2 Ê    ˆ2 Ê    ˆ2 Ê    ˆ2 Ê    €(#Ê    €(#Ê    €('™L&ƒ(    ÊàrqqáåÙÙY    Q¢¼´´dTobb¢T*Åï¼µµev><<D”m¦¦¦¸›   ’)ÊB:F”e    DÙåŞŞŞÛÛ[DQ   @”ßåª0eD  »(Ë§§åtº¼¶&Efy{»|~^.H€nåøˆ2¢ ĞE—ËoŞ¸[OOy~¾|uE
+t‹(¯®®Ví€Q£(—J¥ûûû|>_g¥½xÿDÕ1…6¹\îññQ €F"%ÑÒ’G‘M2ÿËKR ù¢,
+8??ß#^”å'{{{òÛ³[*•š››“#Ç«çâââàà í###ÎÎ™Lfê	±ğl6;<<¬zÙ”¬
+Q è
+KŸ¯nÉº­®Ò ù¢,bÚßßÓ#F”ïïïÇÆÆŞXYY‰š÷ãã£hô›0NÛ¶.Œ'¡·w>99A”  ¬¬ÔaÉf,g2¤@’EYş+ºÓ#$ÊbØCCCæ«ÑÑÑııı‹'¶··Õ¼Å•C§–ßŠ—ŸŸŸËO2™ÌÆÆF__ŸùjrrÒ+Ê###¦Åz||\N!û‹ED  ^ÊÑQİ–¬Ûæf¹Şƒ Ğa¢,ÄtÀ‰òÂÂ‚ù\~ëü$ŸÏ©2VmûææÆ|888íÍ,.¦nv°¿UQ6‹áŞ}Õ%GkNr!Ê  I&—+÷õ=_”e›.×9D :I”c:`xEùîîÎ|8<<ìmÖ½¾¾Ú¤jß0õu»‹³Šr*•*´¢C¢ dææ^dÉf*Ç.J  ,Êå·;`ˆæÆ‹òÎÎNÕyå´û²Úm©Tº½½Íd2!ßİØØˆåÙÙÙ–$¢ X2™8ıŸ¯Ì ¼±Qîï¯îÊ}}ål–H¦(—­]q\íMáew.9H€åååªû¨@‹šïïïk‡¯(onn¶$¹²Ù,¢ @¤¤‹³díXX(Téé©âÊ²CSF™ Ê-e»†øqŒ(ÇLv%:]ÆİİİŞŞŞêêêÌÌŒÈ±N-§xEÙÛacrrrÈÇÂÂB£’ëşşQ H R<Åt¥ˆNØ/e“w-Ç•HZ€ŠrÙê€!òj:`xEYç»¨W”E‘§§§½»‰1ëÉ^QöNä
+I-6$Êrjîf €N¥T*}7´ÀÃCyf¦z7Œİ] ¢\tÀğŠ²íÙÙÙE5t
+1ÎM9şâââÎÎÎéé©ÙÇ0D  ÏéiPsãßIŠaonâÊ ]*ÊN¯(k«°=ì¯*Ú³yrr2—ËÕ°xQnˆ2 @	õNîé)ßİUÿ¹IU»,¯¯“Ì IåòÛ0ÔnmO][[3î†kÌr£££l6kæ+•Jfšd9f>0ßäÔÔ¢  ¯”21kS×~TªŠ+¯­‘Ø Iå²ÕÃÛÕXgLÍ£üğğ +í™ÆcÕÍÁÁAïïîîtT¢ÜşèáÏÿËoı¿ºåşøOy>CHâhB}ú³hõ™ßûcıêîş¤öcşå—JvúÿÙc1yéö…?ıâGÎ®7÷~õû~ìlëgÎ>vM½Ÿ:¾”oeûá{ñ±_ûŒÜ–Üoğê„æNîí­oéÛÛòÀ@W^Zbé>€¤‰²İÃë©ããã¡•ùä¿³³³æÛ9ÉŒŞıPŞ‹.”](&&&ô\GGGˆr3î„Í_ü_~X·÷¾ó³<Ÿ!~üßg5¡&ÚşêÛ×N¿Û«K¾íôW~½ğÿÂ¯şßM;—"Öû?¿÷ÿ°Ï+Û×Û¿şrğW-Éå|+›X5÷¼v¶ì5!R[w5:W©âÊ3394  sE¹luÀğzêõõu*•Ò…¯ïŸ_©òöõõÉ'ú]õzxx8“É˜¦è\.·¿¿oÆäi‹ò5·¢üJ|ş14ó#£|îşó<¢ˆrCøÌïıqô“í}ßÿQ³Ã>ôëÑoeûè/ÿ÷¼.A£}Şêzù|Ü|ÌfÛÛ#á%Êå·;`D=5›Í:­Î6Ù·×('¶g½psŸŸ›¿———å×æ§/iÌC”_ş·ö¿ñ;>(	õÍÿì@>7;H2Ú;ÈW²ƒì&†Íı¯H©ì,ñ’õ_Ë““AK§÷@ÇˆòúúºY•ãòò2~Ï‡‡‡ÑÑQ³ó‰oµ!ÙA688è(²|(_ùjİy‘`mŠ6+fÏÌÌd2™§ì«466&ç’µë³œ7& ˆò³q4E_‹ÿå—ÈÍ=|ìJRÌlßö}A”«ò]ÿòãvÕâ/¾ø%g;<[?sÎ=MBŠ’Î½èÈ!Wîé)__W–ÂŸ¯ÌI m.Ê¯ğåù†Aˆßİİ]\\ÜŞŞzÇ¶‰eñ$ï[oÙÄ¨xJëQ®š,ÿü_ÆÇıW>õ»ÜHĞ$BË…4$K/•*6ìùüƒ¯tb–³@Šr‚I¤(‹¸Ø¯¼íÖåÆéûüşÂLépÿ‡ÿ£ÆŸüå—J:„üQú«¿®åWöXüôgÿPgóÖ<3—ÅóæğŠ²ÄÂ„Gş5Ò×.Ê’z&¿ı;ùç5ù7D”åZ|îşóšbru¢íÄ5Öêª$|áO¿hÎøßorõ^#àçuçĞÈ>ã¼ÏC.®œ«ö¸ŞˆÔş@%–\.Øœ¼³Ó˜Sˆ+/,|å°_õUî‰¬¡; €(#Êm‡ùÿÓÿúcê(?u|ù£şétz&H‘ü¾ïÿ¨Ó	õü¿ş^ÌAä'bğÎ<	ò_Ñ¬˜i×>ökŸùÖïùp´iü=ïÛûñŸõšœèˆÄÚÛùä[Vş·M½ö®rÆ|è×íXÈß[?s5­Zdñ#g×Sßù!{7¹v’JµW<"ÊÔñãÿ):…ÅĞÌ,şàÏÛ3¾ıÑÃŸ›T²ï1ù¡&II¹:Nf³ƒ$}ŞìoŞËOœ“J‚ËçÑ@şÇÿü9½F’Dr!ìy]äŒ5ŞØâår½¾a~×9¯„$zk|ÍæL~çH õ+	¼(²,ÍÉ÷ïëÿæÿ›7´ïì|B÷ù®ùqç>—GÀIjs7J»4CßŞ.2R×¬pUyç ‘olP° ÊˆrûrøKŸ¶N)éÅº^8¤ÏîËaJ}Û“ìMJnïDÖ½“$¨‰2F%E~è'jç¡Š?EİËÙá(×<˜O¬QÎè=¦üÊÑıxQ–pÊÑB!İ‘Dn(ÿöïä¿şÛşuLrÉÕÑÀ8‘Š&‚’ÑÍn{vêoÎ¦ƒ½q”‹b¿61Œ˜öoElU¬=æ¼NwêªµïœşÜ§5vúyGCëÌ]c?#ò•ÔúB±8JL»1CöËëü|ãÏõwÿ®ÿ\ì@”“C¡PH˜(ÛÅ§ÎÕe»ã3†ôÙ¢,?6=ÚÛÇ~í3ÎÏBÛÁÇ®ì_Éq]3íjp;dÿÅÿ'Ç8£œ²Iuâº¿M}ç‡ì„w¬úCÿ!şhÍÚ}÷Ù¢,ö6½‡†6J”½³²8›ìŠcôŒV~<µâ?üñ·®ÙìÆİF‰r´b™ıÍûO^ı~üÁ%$v”µ& ×"Ta³/Y×­1”Í¾Ö0>/rÌĞéZ46 Q†×¹f>úûû;1.¿ı;yïĞ½şòo½dH_tt ÃRŠæ÷şø¿ßä~à'2ÎWv+¯ìàøßæŞ¯şÊ§~W6ùÃ¶^ùÛ~µıŞw~Ön¨V•ƒ¿³ó	û˜ÚQALBDf¿I—}ì~ãw|ĞîÍY—(àC¿~÷ò…?ı¢òıûöWü¹OÕâXN@¤Y.œPÌÉî‰!¯±Ëé³Eù#g×vúË5ı£‡?—şÜıçD6Ç”¯$­d³õZêfæC©êÈnò‡ó*@üØì`FõÉµ°¯»ü\¬ñó_øI»7…ìcwAqâhìSüX~"Ô2^Ğ¹”rßÊÍ)§#ÛÍÌöÜ(QÖ$)$¾ß0¿k®¬ŒRÇsnÛ°„Ö{Rû†üÄ'?kGDî«îÊÊ——›ÚÄ+Ç®? ˆr²EYèÄ¸ØÎj¿Œ¶òCúQ–C9ıA’Û^TÂÖSù¡óFXl;“¸…~eØé*’±øƒ?/b!f&ÔhÚZ#ºã¼‹%ú¶ïûˆ8œOœìy¢l«pùé¸ıJı=ïÛ«E”½­şŞÆwû~¹(ÿÇÿü9b	\§±ÔLìöW§rõ’Á|RA²k,vµJ.ŠıöÃ’G¹¾Ú×E­êK§ù£ş˜oõåFEY„^o9mëµ[Ö%µíX8A’ÿêu±»Ê8=©äÁ´¨z;»w0Åb¹¯Ï¯­ëë¯uÒ­­`£2Cú eD¹İpJP û[§Og]CúQör°õN›²œîÑŞÌÎnZ´;|"¸Ùß¼÷¡?zøsûP“ïß¯É®Ú.[£îhC œÂşc9Ÿòê÷Úi·#¾†(ÛWĞI[ùÄî²Ò@Q¶ë«qw»7K(ÑNÌµ_bo‡f¹ÁäVüÄ'?+†m´eïˆU§²İmÉn•ÿÖïù°~îtØˆö¯°û¾;İ™H&S>8(?<ÄMŸ|sóZgÏå‚ke3¤ QF”ÛÇ$sÊ×º†ô9¢ìmæ´E\Õ|h¿Ù¹‚x‰·[ˆóê_ç½ïü¬H’É«¿N_m«{ø©ãËĞ<b5ê÷]v(qBe‹ Wtìëø-+ÿ®9¢¬u­ßşüá/}Z®¦3ø¬Q¢,jßÈù­müí]»SGíoT%ÊRëÂÒ'w©·æiã³+f"ÙÑÚC¢S\'¹¹/Ojñ·ÿ¶_XÇÆ^7 ³³é@”åÎÀ.˜¥ıè/ÿ–¸…nò_»3C]Cúô¾ÏuZì¢Ê:¾·ÕY%~èÕ{Ş·wğ±+G—ÅSc¦×0sŸøägŸ§;ŞG—Ró9–„¹ÆÑæ25A”%¨’¢1I×(Qşôgÿ°öèÛ¯>œ8ÖÛ©Àd°öÎ»e»O‘Cö7ïíÇöş\>ü•Oı®wŸ ©]{êÅœ7	ˆ‰¦RÁ†d³íî¾nÒ€(#ÊÁİüI]şQ×>G”½£é½Nløó»u‰rù©±Ù;‰²3ı­ó]\9~
+°è,`Íåøy!¢Ûk‹rhæ>g²äF‰rÌ²‘ŞMëÄÑeíØÃæj™"£±¢¼´ù‹1g±GpšÎö¤(Î ¿ºDÙ;ë\r¸¸¨bÉŸ>Ù+ëé@”åöÇéé[ËVûhGn¼S´ÚP'v¤ĞÛYB47fR0Ó)^3‹™3À®üôæúW>õ»ïì|"º®„÷İ}ºã}‘íôÃÖn¦5¶(‹÷Äo¯*ÊNß˜÷¼oï~"#Q0u!;Í%ÊÎµÅüùøèkw'õ> öÁÚÛY«Š²İÏ¡Ş*–bOg*~1#Yí	Íz=1›3@3ilnVåæ¨*Cú eD¹Í/¬Ú†ÿ^».Qv&!6Øm`Ú³Öéë5lçà1ó|‰µˆ-‰(8ó"ó?;ˆ	üg~ïÅM£nCómÅè=¶L±ß’ÛZr,gÿ†¬fülQ¶SR® S“yQşÂŸ~ÑşªöuU^(ÊvW`ïË9¾Xï'>ùY¹a´WRUQ¶ÛwŸ-Ê’&Îjš1÷¶ım=sËädQ>:jF0Ò€(#Êmã£âfÚÚèæŒ«qHŸã²ÑföX´û«ƒ:ÓP8qìQV:¨ƒXõGÎ®?ğ¡_÷¶ãzW5“Ó}òê÷Åã%^Ñ6äÈöP?Û]jŸ»@géRì$µ§S9VÕÑlk1{‰Híı<QvBè,-²hwÉhà¬ñ“KÄÅ¥:áı|¡(;ùÑ:›=i±öÍp"íİnÿêÙ¢\~{,¬-ÍÑJ©İ§Ù{CÊÍ,¿’4OşBÖñ”åÛb±I!aH@×Šòãããı…BQn[œebË™·Æ!}Ñ~¥vßÒ_ıµ­­r95Ûİ$ä‡Î:ÆjØÎ
+)ÑÕşì9ÔTÜí·ÒÑÉËoO`lWjå©ïü¼RE±mÒ%#‹v7 9}@ù•íI5Öd‰4Älfö'„öì×åÈâye»»‚¤í¬rKØêiWÉ^(ÊR‰²¯”\G»—³£Ñ*ÄRtæB¶iw™x¡({»nËà¬Ğ^¼>’{É~„Nòôp××Uš“——›†ôt­(kÜÚÚB”ÛÇ t†©ÎBzµéó–âßú=Í•ÍYM×óµüÔóÁ+&û‹ÿÉæLå&Å¿¶IÙo÷
+cıöïäÅÀÄ«œñgÚ­Ù9—ğ#g×¢Ëò«O^ı¾3“´ígu­¯&µÓb-t¢f3F©úäŒFmEUíÖV9¸wB½ª¢\ãd’È¶”KJ¼_‚-)æÜ$Ñà/e©Øµ5ù[.¨œİImûæ|¡(—#Ë›Ëu”+øıºsRgAD{¤©™9dœÊáE9z¢˜_şÒ§J‚$‰,ânÏ¤şó»QÏNUDùò²yaH ¢Œ(·-Î‚ÑÆWg~®Z†ô9¢3k›|«X¬"~Ê6óCgĞ’ØdÕ_™FG»EÍIĞæ(H¢ü¾ïÿhÌ1%0âe1j¢Ñ-:®±±¢\~»a>ºÙéïô‘x‰(×`§ùöå¢ü_üRTF£QvzeÄOçgwÍ¡(;íÓÑa|v£rü­]Â=¬®ÆYòèh³ÃÃ> DQnOì6HgÊÕNpÕ!}(â“ŸõÎÚößñAïp=c½Î<Gv½a_ÅR‰ö3³±J£›8Ÿ3j­FQ–t°»Ø[tzxY” ÈOB5ù¼vK~‰(Ëİb÷±·ş¯Ní0rùìD{¡(›0ÇÔ¸ŞÙù„s'¿\”ËO}ß¾@NsT.£=‹ìHöœ'/egH_üUIœP¨ôå@ÂÛñq¿•~ë·–{{+íÍM†!} İ)ÊôQnsÄHìÙ jì’(…¨ı«˜‰&¼¢lVÅ“s©pO¾_´/~ğĞ_~©$®óOè?¨û~Ãü®üW´;f‰iùÕá/}ZäÆ6f9h\Lƒ™ØóîS¢€ú&ZDBû?‘ñ.Î')šQK„Õ™ªL*lsd1ùÛ+‚’ŞiÎl$0"[05fùÛèW]·©ê4söf[¸¹”Ró1axiŒÄÆì_Ù¡²“ÅéÜ\cÜÍe2¨1‹kŠ"{ÓÓ‰ãK¹sÄ2õ’³K$F1äÖ•ÛÉˆ¬Ü·HS'´csçD“ÈË¿ùÅÿVûSiLÙS›É%xRçüÑÿFC¦RiwB#ùîî*s'[Ñç„!} ](ÊİÀàà`2Væ{=¢¢Lš @Ë¸¿ÎtÑBÒĞ¡¢üğğpŸ,P$Ÿ¿¤Á¸T*™&g9Ëkìß†††¼¢œí%e €*éøx+CÅ>€å©'åï£££±±15?1Âıı}Ö½½½ááaıVö<;s_hf2û€6§§§ÓÓÓ½½½z„¥¥¥››oÀeÿ{ÿ•••ÛÛÛöå{F` Ê Ğ†¤Ó~]\lqÀÒĞş¢¬cïÄY½ş·¹¹)–<77çıöèí¥ŒBƒùBD…£V½°°³ÿIK_K!Êˆ2 tËË~İÙiqÀÒĞ)¢lúİöõõmllœÎÏÏ«˜ÎÎÎÊÃÃÃétúüü\¼v||\[y‹Ö0¯(ë‡###ò÷õõµ8e&“Q{îíí½»»Óı÷÷÷Íç£££öş‹‹‹ºû9 Êˆ2 t~==m}ØÒĞ¢l\ÙQ=ãÇ†ÉÉÉÇÇGıJäX,Ö|uqq/ÊÆªS©T´ŸñúúzhÿşşşhOhİ{{QF” ª#Òé•ÑVwä«À>€Ne§Eù©W±~k·øDUÍWÖ”^QOÆ}Ã&òù¼|>??o÷¾0ı’'&&¢û‹ŒÊşÑĞ"Ê  àòø4Ñvh²eH@§ˆ²İ`l¸¹¹Ñq{ÑÆ÷²°?Ô¶çh_d/:d°Æıe  ğssã×PÑÓ6!} í/Ê"Ñ¯ÄüÌ·/eùÛIceeåìì,êåÊÆÆ†î/Ò¼ºº¿?¢  ~B}¦¦Ú%„éhQö¶«(/--½D”Åq'''£“WLMMíîîF‡å…öŸöî( €Ÿİ]¿ƒúÊµ–Á>€6å)_İºQ¢\~š†Y×¤Ù6àÕÕÕâÛ+ˆšıGFFBû—Z—w Ê  ÃÚšßA[7"ÜCú º\”•»»;1àÙÙÙT*e[æb`âw³ÿÌÌŒ³ÿRëe €anÎ/ ­î!} ˆr$[(ŸŸëlÍŞ‰5^²?¢  •uª½jMlÚ0¤ ;Eùáááìì,Ng³Yo fffÌOkÙzzÚìßªõùe €!4‰r»åØéèNQ¾¸¸ˆ™:£l­!rú´HR&“‰ïŒ±¶¶fvŸnIŠy{N#Ê  mYÌ¶ñ$ÊéèBQ.•JfÁ‘‹È«®‡‡ıÖ¬ÛW,ûûûÍ'ÑFå|>oöïíí®ó×$­¼¢Üª®   àçş>¨mCú ºP”…ıı}ó¡ØíÆÆ†è²ùúúúàà@×Y]]ÕıÓéthíö°ÑºWQ!Q¾h·o  ]N6ë÷NßJ±­‡!} İ)Ê‚xğ›0Îto‹‹‹uí( €Ëñ±ß;çæÚ4Àéh7Qzbmm-úU>Ÿ7ßîììD¿Íd2æ[{¡iï‡†³³³éééŞŞ^gÍÓ59Š|îì/Ë'¡ıe  x‹tÚ/++m`†ô´›(7Ÿûw©±U¸Şıe  ¨°¾î—Îj˜¶†ôt¹(w:ˆ2 @g°´ä—ÎÈ;Ï6Â;¤of¦2QDe  hT~íåL¦}Ã,6üµ_ûåpşÍ¿Yş¦o*÷wWŒ_âÒÎ~€(¢ ĞIŒŒøEùêª#ınÊ€(¢  ¡¿ßoœ¹\[ûğĞlßT ˆ2 Ê  P'¥Rpªµ6'“ñÛ7‘+ ¢ˆ2  ÔIg-ËgsuåùÈWe@” àÅ\^úusl¬İCËùCŞßÏUDe  x1İ!Ôi„â QD  ^JG‰d!k D¹#™ŸŸG” Úím¿k®¯w@àÇÇıÏf¹°€(C[³´´äåÓÓS  ]X[ó»¦tû33ãüÉ	eèHQ>dÍ$ €vÊ¬;oıêªßßçÂ¢ˆ2  ¼ŒN\¿ZÙÚò^>@”Û‡ÇÇÇû'
+…Â³R,_~D  ê`tÔïš——øı}çè Qù3¸õ‚ZìÅÅÅË‚( @tôÄ''şÀÏÌpaQF”e  xaÛÉSg³şÀsaQF”e  x~ÑL¥:#ü¡õ·¹¶€(·é£Œ( @S¹»ó‹æĞPg„¿T
+¶ˆ Ê	Q €&<~Ëœœì˜(ô÷û£ËqyQna%üîææ¦X,Ö¸ÿãããíííååå}xx¢  M%4nv¶c¢02âÂÕ—åæ1ôÄîîn>ŸŸ˜˜0Î—J¥677Ÿ²šİÁù¡xáää¤mŠò«ùùùËÈÌ;1¢œÍf‡‡‡Í)N:dÁ!D  İ98èøéÕ:zh€Äˆ²‘<ÑbÇzEyËáÁ|oÂ8VåÛÛÛïOe  x>¡;Ú€:¥°éà•&ÊCCCòoOOèòÄÄDooïÙÙYH”õÃ±±±“““»»»ûûûËËËÕÕUó¹G>ŒåµdD  X]õ[f:İ1QØØ`q>€veA´õææÆ|˜ÏçKO3MzEÙôĞH¥RÑ©0d7³ÿ†<áaQî\KF” :€ÅÅo§÷Fae…ËˆrDÙëy^Q6ÍÏ£££Ñı&''E%B¢¬–ÜÓÓcïÖ)he Q hSB|/.:&
+R>z£ğÔ1 Qn¶({gJöŠòØØ˜ùpgg§TÃG¶(Û–Ü)£÷jåíímnh €¶`tÔo™××…ÌpQ
+ÌÁîeñcµÃşş~Ó~œÏç«ŠòÂÂ‚ö¸˜í 9zjå-ú ´	ƒƒ?	q§¯™$Qššª]”K¥’hnÔÇÇÇ···£*«(;˜ñ‚ˆ2  4¼lëøeíıQèéáò¢ÜÖ¢l\9:²²°°ğ(O¸O”{zzVVVÌßƒƒƒ/YQ  ù¼_1ûû;,"½½şˆ<<p‘QnkQVr¹ÜÁÁİ§"Ú³BE9•J™Vä¹¹9óÉRÍı( t··~¿é°ˆù#"@”;B”m®®®–——Uu²9åÍwgz½îëëëĞˆ2 @[(éÚ—ÌİĞm¢œÏçONNä¿™À*šºhŸN—æ]päàà C;` Ê  mÍñ±ß/:,"`çD¹³Dùòò2~ÚŠõõu³ƒÎşZÂZNÚ‰0e €¶fßï—««‘Ğú‚;;\d@”ÛT”K¥Òàà`¨×D>Ÿ×i’ŞmåûûûŞŞŞë€( ´y6ÅŸ··ıY_ç"¢Ü¦¢l(6¼ºº*{yy)6¼»»kíV­Š{H”Ë•:Ó×Q hkVVü~ypĞa9<ôGdq‘‹ˆrûŠrÙê_šÎ^±/F”e·‰‰‰Îê€( ´5óó~¿<=í°ˆœŸ'dT"@çŠòÔkkkŞo3™ŒÙá02t@ôw~~^'¯0³¿ÍÎÎFr¢ëëëĞAìo…ÛN˜òQ hk3YÄõµ?"ÃÃ\d@”;†‡‡‡ûûû\­Š( $˜ĞôÃ‘…cÛĞÊ)}}\d@”¡MÑ~Õˆ2 @;’JùıÒZ2¶s4!°w±ÈuDÚí·í°±±Aâ  ´1H¯YöôtdtÓ:€(w¹(wârÜ  ICÒk–bœÈÄ‹ó¢ˆ2  4‚lÖo–bœÈì¬?:ÇÇ\j@”Q €z8=õ›åÌLGFgyÙ½=.5 Ê€( @=øÍ²C³èĞ*ƒ››\j@”Q €.6Ë„y? ¢Œ( @Ë­_NwdtB=I¦§¹Ô€(¢  õZ¿Ú·4lpyéÎØ—e@”  &'5ŸZh¶».5 Ê€( @=„Vè¸¹éXS,Î€(¢  uĞÓã×ÊB¡Sc40Àâ|€(¢  /ãáÁï”©TGjtÔ©ËK.8 Ê€( @m\_ûrd¤ƒ#5=íÔÙe@”  62™N¦&…‹7R\p@”¡óá¢ Ğ&pyÍM¤¶¶¸à€(CÛqqqáåÙÙY  •„–åëh§ÜİõGjy™ˆ2tŒ(OMM‘8  ­DÜ1y½ı‘š›ã‚¢ˆ2  ÔÆì¬ß)3™.uü‘š˜à‚¢ˆ2  ÔÆøxÒV)‡çâ‚¢ˆ2  ÔFhmÎ]mD(Yœe@” à……jâV1H¼QËç¹æ€(¢  ÕuQèèÕFÃÃ	ìR€(#Ê  Ğ$²Ù®6bòÅµós.; Ê€( @5BÓ¨%`5¨ÅEÔ¹ì€(¢  ÕØÙIì
+vkkş¨mosÙQD  ª±²’ÀÕFâë "Ğ ˆ2 Ê  P…™™®6b8<ôGmaËˆ2 Ê  PÑÑÄNZœreh7²Ù,¢ Ğv„&îèÕF··,Îˆ2t÷÷÷ˆ2 @{ñğØÕF; D¹Dyˆš= @«¸ºJìj#†¹ø€(¢  aNO»ÚˆAŠoïî¸ø€(¢  avw»ÚˆarÒÁ‹.> Ê€( @˜Ğ’	XmÄ07çàÑe@”  ~LÀj#†Ğr*»»\|@”Q €0ãã‰]mÄ°µåàÆe@”  LhåÛÛ„D0´8_b:a Êˆ2  4|Ş/‘==É‰ãÙ‹ó¢ˆ2  ÔI6ë—ÈÑÑäÄ14Qt’â€(#Ê  Ğ`ü9?Ÿœ8ærş8ö÷sıQD  lltÅ@7oe+•¸ QD  |ÌÏûòø8QÑôGóş[ e@” ÀÇØ˜ß ¯®º"šÙ,·ÀkS*•NOO766–––Ö××wwwID<
+D  Í—0•™™ñGóô”[àU'šš²KüRs{¼œŸŸß&f®CD9ù—ÍG?#*  šOhn¸ä5^,-ùcº¿Ï]ğª,//;%şh'ÉårrÒ‹‹D:X”R  Ù„æ†›™IZLC‹óÉçğšôõõ™RşğğĞ4$
+…&Ö–ÌÙe@”  Nö÷ıú¸¶–´˜îí±8_ıÑMY(¢  Ïe}½[:$œœøc:;Ë]ğzär9SÄOµhDDe  x.ss~}LU„:™Œ'ş"‹ÅËËK1Å««+ù»–Ÿ<>>ÊÎò“l6ûğğPã‰
+…‚9‹ÕÓ©®ªŠòÍÍÍÅwwwµÇËRQD  Ëè¨_kv£áşŞÓÁÁä]ÕÉÉÉ¡¡¡õõuÖT*¥E­ü½¶¶ÓKX„u~~¾··×. å€™L&ºóÉÉÉĞ¹\îèèH500033#ŸšOä«¡wqÜZÂÓßßoŸN~µ»»33Æõõu4v %úr.»)zvDe   "ÒÓãqÇ¾¾dF6´8_â”RuqqqzzZgdÓAufJVïtiûûû²g¨˜õtö?<<4_;?·®ZÜKÔ¤£Œçóùh ÷ööb)†mvÓ¶än–Ô
+Q €çr}íÇ‰‰dÆW* Şøær‰ec“ıııGGG¦uVÄtffFG×9İ0NOOÕª×ÖÖnnnäW¹\îàà```À|µ¹¹ée³Ãğğ°èéÔÔ”èïıııÅÅ…´Ùallìâ]ÌoåÈzX	•|şøøX(2™ŒJöÄÄ„Ó®|rr¢\]]½¾¾6L§ÓjÏ¦]Y"+ÇÔøŠ@ÛgG”Q €Xıâ¸¼œÌøŒøã+†$Š²Ğ××ç´‹VÚî¨Ÿ‹¡šş¢›§‘EXòù¼Ê·İ‡XEYmU©Õ®1}”çççõ‡ÎWrœ¹¹¹h ÅìÕ­#K¬«C[ıÎé£ˆ2  <‹¿8¦ÓÉŒ¯¸š7¾¾Ş·ÉeÛ2‘WÓø:<<¬Ê!mu4tee%*Ê"ÙŞa‚!QÛ6ŸK¼}‘EµMäA«¹¶O‹F{911avó"Êˆ2¢  /`vÖ/ggÉŒohq¾ÃÃDŠ²ˆæc`rí»¬íÍºÊôÕÕ•÷'âÁÆ\íñp*ÊóóóŞ_…DY½|{{;mT¾~·É_­7¨ÛHà///í0e@” à™>åGß0¯$š4:q‹óQ÷5ßØØ0%ïÉÉ‰ùD‡ú]„Ñ†jíY¡¢¼HÃ(›e¥(‡N·¸¸hö9::2¿3ŸÔ>c¢ˆ2  ÔÏã£ß{{åtÚå@gƒNeÍĞ{{{vßŒÇÇÇ7õ T”­ò!QÖìZĞVg5õÚ“QD  êçòÒo-Zj¸ù£è6Ğé¢¼^Ûi	V­í°ÑQÖæjÉ‡(#ÊI&4i") Ğ<ö÷»Ä¿‚¨’7Ê““‰å˜åíím[pµEÙLëV~÷rQ­z:íéA‹2¢ÜèîàW  ^…µ5¿5¾=Qn¢¸»óG9q«µUí£¼¼¼lJŞóósó‰é£ÜÛÛ[ã×/eí£|VÏÈÑññqó«\`êkù\xss££eH(kŸ'  xuBs¥E¦§M…B—tË®:ëÅğğ°³ƒ6ñfÂ“å­¬¬lmm‰¿¼E¹êltå§e×××÷öötæf	€3¼Ï!N›eDQ €çÒßß%«o¼…8±7Öï¾ÜOX9›öM‰­3"Ûsºéğ¾É@GÃxÔêÅşlQÖ¹œS©”·y8ŸÏëDª"ñ¡åK:-†QD  êäáÁï‹²Ú SuÃŒxZÎŠ†f³Yû«››wyy©Ÿ‹EAd¯±g¸½½5ëö9NülQ¶VìÖé{ùøø¨«X;34«
+G'¤ÛÙÙ‰.G"»9mÌˆ2 Ê  K&Ó%½u]BN’ÕÜh—³==="¾gOlll˜EC„ÍHgôóósÓÊkšÓé´|rzzº¶¶¦¿š™™±òQ~xxÑ¥¶%lB9£œWÃ/Nï´7___‹ıë1E/..fggõ'¶NhK¹DMä{bb¢ö9˜e@” º’ím¿/VNóóİ°8Ÿ)gå_qÜhi+Ê¸²)ª-ÇQœNÏ/åòSÿ
+]t:Šhô­¯¥?›Í†¦Ï’Ï¯ßî;$§Ğô.ìƒ(#Ê  P?"Ä^_¯'œVWı÷õåM€(—Ÿz$ONNš¦b‘àÅÅÅëØnè…BaggGüU[‘E4ççç½~)Îºô„ÓÁCyxx0;È1Cg<>>UAO¥RbÕ{{{1óo˜@›xÉ¿cccòIÁ××üîîNb-Ú-	"?Ñ‰>e@” ÀGh$_xÆƒ„jJ__Oª(C7ƒ(#Ê  P'¹\p$_²&ğpxèxxmDe@” º†“¿,'?î¡QŒéÆe@”Q è&Ö×»¡UÕÏõµ?î##ˆ2 Ê€( t=¡)Òvw“÷|Ş÷¾>De@” ºTÊ/‹Öò‰v‡@ÿìğˆ2 ÊĞ<t‚qD  ÙÜÜø5±§'I¦o‘ş DÚ©©)¯(ßİİ‘8  ¯ËÁ_ÇÆº%ÆÇ»aq> D9i¢|A& ğÚ„VÜXYé–˜õ§ÀÉ	w Ê€( t1¡öÔƒƒnIåe
+ìíqw ¢ˆ2 @·R,Vú"{51vYãD±µåOÍMn@”Q èV$›õ:b*ÕE‰°¿ïO„¥%n@”Q èVB©ÉZ—®
+§§şD˜™áDe €îÍı(İ=\^vû¼€(¢  oQ,–{{™­2_²7ºùî(
+OÜŞŞÚŸ›¯»§;¢ˆ2 @7r~ì Ü%K|E‹óu1R›²xéí¾ÚæÃ©®êœÓPòù<¢ˆ2ÔÄíí­iŸ(
+ú¡d"æÃæ& Égcƒ¾¹_¦¿ŸÅùå×æêêjbb¢µ#Êˆ2t’G/÷áá¡ùPş ‰ ^‹‰	¿îìt]RŒú“âê
+QF”n;ˆ2 Ê€(´7Á”//».5¦§ıIqv†(/1M¢ˆ2 Ê İE&ì \*uaNÔíË"Êˆ2 ÊĞ)¢ ¯”kI$N“W(²Ùìéééññ±d¼¹\®±¢|{{›ÉdäøõÎŒñøø(3¡zxx¨ñW"rº“““+_?	Œ„äììÌ™»ÃK©T’0ËÎò9Z©æ£ì)ûK$$1Œ(Ã3™ŸŸG”e.7@S¡ƒ²Íî®?5VV’ËÃÃC3˜Ìattôèè¨FQé£,¦822byxxX>Ô_Ù‡YÔ7‡¢È«««½½½öogffnnn¢QP×÷¶244töno™ËËË±±1û[ùïU Ó¹TÖÖÖúûûíıå¿ëëë6n>±µµ%Š¼½½İ××gÿp||Ü)Ñ¼‚ZDêS%©Ò%,¦ò`Ë3l*¾µTUeÉ&ÎÏÏ%kzªüªXÛœM²›äR/—ßÖ8q„ù‰„MBX{3€ä ²¿„-Tû7M’l6ëÍn^"ÊrpSõ¯%ÀASã—ı%¦ŞÀ t1”»s~ÜãcjÌÍ%#~Ršˆw¾‰essó%¢,¢:r:eùÖÑk%•J9Ù»Š²˜½|ıIOO„\²zùÃ{Àhk®%ƒƒƒ¡À‹ëG[£5Åfgg½¿’³ŸYÜexQîôş©šËHDîîîœçDªª;;;!]–ı———£¹€|"ŸGİ×¤¡yêöööœj±Ô¹cT2—ËÉ1ªüÀÀ€Ô’£^n·ˆûê‰$SØØØ°3åİİ]	}L9Åââ¢óš¯ö>Êšf®{§]D²¹ııı˜:‰)››cÎ|èR¤÷za__—&ˆä?Ş™˜HFü$¶›xMÓ†éê /u%W´óçºDYÊ-¤D|M!%~¹²²bg¼^Q6™³iÕ¾{âàà@Ê -¿¼¢l~%eŠ„S%ÑBA´[¾•GDV2yùV¢¬å‘ö%)ìsÉqL¹|yy©)#‰æ´­˜ÏMC²)}$²r¢ããc•~9¬ñ	§¶p›î%—­5‹(#Êí(Ê’Cés(Ø+yMTFå‘öV”m‹uZpU”×××ÕJå¿Z¥–?Ìû/ÉœwFÎû#GÊí6 ”¾„2ûÈOä‡1·õô¢,MÉ¡ìğK¾æÔ=$ÀN8c*ı İÂêj²PëæîÎŸ ­hók8"y¦)DrKï;FíÀ`wÀ¨]”…‚É‡%G•2Å9¸äØñ¢,ÌÎÎ:Y·x§6ßØå–Âöö¶ı†¶+;ÔRÃk +¾n6«««æ[)[£‰`ºsØ‹ ˜ÔÖöéPú(¢üV.£UU}}s~~.5TïÃ)¹˜Z <™ÚCK«İİ]Íœ‡Ö¤¡ÑbùW,Öø·<ÀÚ ™ÓßKÂ£ç’z¹é¼%¹•ätú<ONNÚù—fmF÷ÅAåÔ0}òå'vÓ…©ˆË©µv.¯Õƒgˆ²‰¦d¬wR¶=qzzª6ì¼=Ô·’bº¿D\Ï+?,vÛ"d â^/ÜİíÒ‘lÊ› ==	ˆœd&‡\[[óî°¿¿ï´wÔ%ÊæÃĞñµP‰²w@¡öjğ–"£ÑW²ZÊH©= ¶õÚ®)PB|h’NÊ8{y&“‰şJ[¬A”QŠ²X²óHËó©•N»…U0»'Cô˜òÀ‡Ò0Úr¬ú™·Ç³ëC»¾#¡››3ßîííy³¶‰‰	}¥9ÈÑÑ‘†Ğ©gÑc>C”9N´ùA›44Ï}xxĞ–æhbj`hT†îB2œĞŠÍ‘±S]D*åO“š§_hûºÀchl†f¹Ïe5ÚĞÌz|¯(y¥¥¡·tpzP´Ÿ´×´È‹Íi{²ÑŞ#çççN"ôöözûOzÓQD9(µNÇ¯øZ¸Ø[ïQË4˜¦Ü”äé¾4\\\ôşjttÔy>¯®®â3)QyóæË–r[”½|µåÀ;8O_~IÆúlQ!ö&Ñ÷qZï;µËËKù\~EOeè.äñáğpW'‹D¿›*ÅbQ²¾££#)€´ÿîóDÙ´¹:¥’ÍÍÍMŒ({2	LLéàô»ˆùIŒ(kÏŠ‹ ºN"„Fã!Ê€(×'Ê*…Ñú½yé3)Ÿb¦ªĞÍ›†¡¹#´QYG¼i†b7;h¿í´`w½ˆ‰QÌ`^©”ÛyÄ3D94©§$š6u›OÄ§µ;ŠTKèbPa|Üo„áFµ®@ÌÏ›,V;b§svv&Ú'9dhäÆóD¹ê’Çˆr(Ke¯!Ô+Ê¡Ùi«&vMD”Qn€(ÛÕP?[Y.—Ëd2rqnŸçMÃÊÏ¶U}Y¶»»ªIk&¢İ94kóN¢yyyßBsõkåĞìÚ°ÑÛÛëÍS©ÔÜÜœü\½ ëÈå‚ı."Ã°º‹…²$b}ĞÛÛ[ïë¾¾>É$_U”K¥R{Šrh½³EÙ["Ê€(×-Ê1	=6bÆ;;;bu###ÎÄmJ4cò)}ó5÷î¨ö˜‰)b®E|Ö&>?¤£!¢3ã²FJûf<<<xc*	»¹¹YËZM ‰Bê™^ìïïÆ•«m$×Jè
+,öhbÆétúôôT›^ØGY§ÔÀ[p´U‹r¶ÎZ"¢ˆr+EY-ïLécccâv:»\]¢m	v&9çàà –¬-”;4M”½éY*•¦§§½©ºººZêr?€®bzÚ¯ƒu.Sœ@Dˆ½)Ssµ¿mÑQqŞ:`æy¢¬¯FCÏÎÎÚS”uğŸ–qˆ2 Êí%Ê:ôMGûmooÛÓK'?¿ººÒ¾1}”é!m¤ºìdIÚÎZ×ŸµinèÜ(Q>wô&"%ÄñññÊÊŠÎÍ3Á@‘l¤·×¯ƒ‰[	µn$·ñ¦Œo¢±ÎBs‡ÚMu¼ÚóDY'!õ‹Óã·›(K‰Pµ» DJJû$¢ˆr#EÙ;8×àLa¡MôôôÈó“PåP_gµMŸ[í¼¡*ñYÛõõuüøÅòSoiñé››ÓûQ>”šÔ«e]PÉò´[^Ì`m€DZ¨Yì™¡®’z' C„¶ x;›=<<èıÏå»»;Æ-ƒì¥CÚM”…‚–¹ŞéìELìe@”)ÊÎ
+œQ­ÔéµvÍ\.ÓG9ÆzU
+u#fşHQüÕÕÕt:­ŞñY[±XÔÎj¡ş&Ë7}¶(‡¦À“¨9;d³YÉ§æçç½£÷$ Ú´ÜÂl yÈ£Á‚|!nn’:kÎ_}{&–¬/6á%u-a½¼¼¬/BíüV×:iOQ.¿½¸·³&—H¿zwÊñç‰²–w-œ¼QF”ÛQ”CS«¼êª¡út…\Pé(;KŠh~düÕ^z^ò2ÛáæY	ä_]A´jÖ¦c#¼—OÓDÇ>C”%.^¯ÕÂ@ó ­„õõdü¬# I@ı¾>¿ÖÙA3™H.çMœÎãtzzª‡m&“‘ìTş•Å4—ªËÚÚÕ%Ê’…jvjtYvĞ•ğô6åb±¨U)\$}äÈÇÇÇRjhK¼¤Sè<O”í…r'&&B‹ Ê¼³,Ê’M82º»»«µX•Wı‰<–ÑQ’ öp4»ÉÖ®l8R(ÇÑîÈN§ÉÍç’Á9Á³'‹°;WÍÚ´™<•J9ıá$$š]j.ö¼•ù$‹yx{¹¬ÍÍMÍ íĞš“ÀDë*Ú~jòH¡®	Z|î¥ôôøÓ§ó+Ò:j-ŠdÂ¢¹’I:]êåòS/-SœÓúºÏ~Ù&¢l,_û"z§HŠvYy(ßÜÜ˜tVšÿ2QN”(Çtíí8Q6·"sòüìïï‹™©M^^^Z->%UIèƒƒ3Ÿ±üÄ<á¢}Zõ·_o9­ò²³üDÎ%i«ûG—Ñ×ÔÓIğ$'=|Â[ÃY‰ºjÖf;«„ÖÔÎcÚæı<Q6u	¹Cd±môtŞiñ`š
+$IÍ%]ÛËíK XVVüX4¡ò'Q"f^?;;4ù°ä{£££¢°Ú‚°»»»ô„–,b‡ægFóáN`Ö<ÉÓé´d¶²üaSÇyÛâ(÷øÊéé©ÙÁöÔl6k>ôLôşD‘0›oCEöââ¢–‰’P333RXxW'ˆOäidŒ¬¤œellLŠx)”›?E)¢œ(Q®}Š±6åùùy»˜"u÷è£.MhÍ¤¡¡!9¦v'Ğ¶nJÆäwY¼ĞÛ» ŸÏ{Ã¦·NÃv-¢\ÏpgV<ñ¶…×.ÊrûŸ>WWWNHä\ÚÅÅ;Ùş)ƒı¡Â>Ôï"¼"R×11áO¢ğ””P:ı\ÌrQ€(C÷Š²¸ èšÔ×¥ÙóÄøø¸ø®w>KSÏ^__4®iêµº³T÷MUÕ^ğOuSDÖÌç`šä_Ñô‹j¹¼È¢ìf÷Çš››;>>È«Ú H8×ÖÖ4R+PEC"Ç©±Í@ÓSnIŠíím£Ë¦³—$oÌ
+ÕÚT`#~,?‘#Ä,(Bó]$¥¹´1ÌÍù“(0¤8“Üuvv6ÚTá”PÙ._ıQD9$Ê¯}.[”“zŸØ¢ÌSP33~´úôC°wÊî.iƒ®ÉêAÿúúÚ´PØ£ÉQDQF”Úƒ|>8L-0+y×–FşTbM¢Xu²áÕÕU(’Ëåvwwõ+ú] Ê€(#Êˆ2@û‘N×a¾›ƒÖ÷~gggŞá1JÌ„ı€(¢Œ(#Ê ­ctÔïáe{»V÷ü	Å’5pss377Æ=99™ÉdHDeDQh?®®‚ÃøZ·<X‡¥•Ô4 6³ÙìÑÑÑáááùùù¯,e@”eD }Y]õËßÀ@™‘U¹œ?­úûI@”Q HÅbEò¼òGŸQ¿GZß©T ¢ˆ2 @¢89	šßÛkXÂ—ğ'Wr_Ö¢ˆ2 @W2;ËôÉõ16æO1ºDe €äÀôÉÏ ´2kİ¢­"N#Ê  &´|Ó'Ç°´äO4Ë DZÅáá¡W”777I €ç3Œé“crÇ›h4Ü ¢í&ÊK,† ğ<öö˜>¹‘é¶¼LÚ ¢ˆ2 @çS*•‡‡ıÂ'Ÿ3ÓY¡yBfgI@”Q è|NOƒÍÉ»»$OÌˆ2 Ê  ÉebÂo{}}•¾ËÃı½?é††H@”Q èpBm¢ŒH«©H„R QD  ³™›Î
+—Ï“<Õéëó' ©ˆ2 Ê  Ìím°Ate…ä©‰‘^_“6€(¢ Ğ±,/û%¯§§|wGòÔÄÔ”?3Òe@” :“|¾Ò¿Â+yss$O­,.úÓğğ´De €Î$´ªœlWW$O­¬¯ûÓp{›´De €$Ÿ/§R~Ã›š"yê ö'ãêj·¥D6›½¹¹á@”Q èpB½“e;=%yê*“üÉ8?ße5¯üÀÀ@*•:88à¦@”Q èXnn*Ãõ¼z7:JòÔGh"ê.k˜Ÿ™™Ñâxqq‘ûQ†–‘Éde €—HM°9™!hõšb¯›çÛÙÙ±‹ã-–ªA”¡¥µ÷¯(Ï1L  *ççAK-—J¤P}
+Á[ºƒ«««-‹§¦¦JÜEˆ2´¡(O1   1±á(3õïóÍ²'üjBahhHâşşş\.Ç(¢ Ğ-yf†äy&CCş$½½M|Ôì‚øììŒÛQD  y|,—âcb¯g39éOÕ‹‹dÇ{ß.…×ÖÖ¸e@”[F6›½cQY x6[[Áæä•’çùÌÏûSõè(Á‘¾¹¹I¥RZÑ5QD¹e
+…ÁÁAÉ•¤Ï=  u³`u__å[x6««ş„M§“ãb±8::ªå¯”M´ã Ê€(·¶Áb^c:ßeóØ@XZ
+6'ïì</"ÔT¿¾Ô¯¬¬ØåïQ¢ÛÎe@”ÛÉƒì˜nnnr @]ùfĞ’‡†ÊÅ")ô"B‹ó%tvÿ““1@”Qnîïïûúú4šãããô€:(‚Ó2$½m“Èdºgq>§H~||ä@”QnâÄ“““v?°Û.˜o IL§‹‰	’§\_û“wd$yEÒÄÄ„I½½½×w@”QnÎº {{{Ü  P''AK–-›%…@>%™,666ì"iww—‹(¢ÜÂFŠk{]ĞÙÙY®> ÔÁÃC¹¿?hÉ¤Pã„"È	êÿ}~~n—¹sss\vDå–Q,GFFìuA¤Ì ¨©]‡n` L–Ò@ıé|ŸŒøåóù-’)’ehS²Ùl7ˆòêê*ë‚Àó‰Y­Z6²”Æ2>ìÎ-333Zõôôdé´ƒ(CÛrŸxQ-¶£¶Â¢Y PgFYN¥‚–¼ºJ
+5˜PãıÉI"çŒ–ÙÚÚâ‚#ÊĞy¢<<<œŒ><<Øo¸˜| ê£T*ON-Y²J²”†šZ¤óG`_]]Ù£e¦¦¦˜¢Q†å¡¡¡dDpnnÎ~Ã%™ ê ZrOOùò’j<¡Åù:¼ñµP(HÙj–Éår\mDå–qpp`Gj{{›+ u UëŞŞ (³®ç+±¿ŸÈÅù-ƒ(¢Ü.Üİİ¥R)ÑÄÄo¸  ®ü±2EÈ’ÇÆÊd)¯Äé©?Ígf:Yş÷íBvmmëŒ(¢Ü2œÄ˜ï“2¯ 4ƒÇÇÊRp!Kîí-³®çëqy¬œt&777vÃÍØØ7ˆ2 Ê­dkkËÎÁÁ× j¯j—§§ãæƒc]ÏW.™üÉ>8Ø‰±)‹£££vÃÍİİQD¹…—ö°âùùy.4 ÔAhÖ³‰CÃkWTB‰ß¬¬¬ØÅëÑÑWQD¹e<>>³â <“íí8K(3SA­Şi‰rrb—­K>eD¹ãEyyyÙH&“á*@­ÅYr*Ufµæ0:ê¿5Å§”°}}}Läˆ2¢Ü.œÚ±XeÅ, ¨‘à8QNÄÊpÁÔT§¯îŒ)ïíí½¾¾æÂ"Ê€(·Œ|>ßßß¯Q-‹\b ¨‰ÛÛàë~³¥Ó$Róu?<ì”lllØ¥êîî.WQD¹•ÌÌÌØ‹ğQw€ÚëÙ•Å¨c,™×SM×Ì^œïüüÜ.Rçææ¸¤€(#Ê­dooÏš¶ ¨9Œ›2Y¶ÙYÖi6»»şk±²Ò	Õ®üÀÀ cÊQNòô&@”ooo{{{5ğSSSÌå 5qs·ülããe`5ŸĞ¨ÊNhšu^of 
+ˆrg_9Rî”ğ‹iÈûúúX„ jB&•Š³äÁÁJ¯h>ş+29ÙæßÙÙ±Ó­é+ˆ2Ô'Êo:g^wgÀÄññ1× ªsrRY‰:~28Ö©nwwş‹ÒŞo;¯®®ìå®x½	ˆ2¢ÜòF‡;WZXXà‚@uööªÌ'ß^\N-ãñ1x]Ú•B¡044¤åQµi QF”Û'W”O¸  P…­­8E66Æ»©–êÓ®ãXî
+eD¹X\\´|Aó ÄS*U&z‹·äŞ^i††üèæ¦»¿¿o—Gkkk\@@”åVrrrb‡v}}K	 q‹åùù*–Ì"ÕíChq¾ök¹¹¹I¥RZÓ5eD¹ìííyW×Ëår}}}Ô±±1r% ˆãö¶<6VÅ’½×F,,´Õâ|étÚ;²R£££Z‰1ßİİqõ QF”_B¡`V¢¾‰¼h›ššÒpöööŞ´å›8 hÒé*\È62RfèU[±¶æ¿R;;ÍËãã£”5CCCÑ5_WVV˜y	eD¹Hv£*¼¿¿oWëípîîîrÀÏı}ğ¾3;/k§µÛÛş‹ÕŠî¿§§§Ú`|tt¤Ÿ; —––¸n€(#ÊMBr;<sss…BAjóö"|ÓÓÓ\A ğsxXe=]ìµ÷Úóòy¯×âbóÃâŒ___/•J÷÷÷v'À‘‘‘Gn$@”å¦188èék¿ök¿îë¾Y* 
+åÙÙêŠ,ÛÒR™íÉù¹ÿ’MM59 âÄ¶¾ù›¿y||Üîí•€(#Ê¯ÅÍÍÍ›jœ0… D‘œ¡¿¿&KŞØ µÚ—›ÿUnº±ŸW-ööö¸b€(#ÊÍÃéˆåÛ¿ıÛ¹v ğ…B¥…¸Eîí-`mÍÃCp
+¿æâ×‹277ÇåDQn*ÓÓÓñÓWõWŸrù  B©TŞİ­ÌïV‹%OL0\§”Oş­¹]£ı ¾÷{¿—)JQN,í&ÊÅbÑ±ƒTô½-@)òáaåu|-ŠÜÓSY¿§éB‹óİß7-Ùl¶–Âhzzú‰S QNhF4ä}ì[øÌg2™75ãh Pdw-3Üª³˜˜hùâ|›››5FŞY–åÄŠò}«ìkkkoêÁ™h ’ÏéiŠÜÓS^_/óö©ã˜›ó_Ğ&.ê1<<\{aäÌ²€(#Ê¯ÂÈÈÈ›úY^^æjt…"W]ŒÚŞ††šÙ 	Druï5mÖ:S···Ï(Œ˜eDù‘ó>#cZZZ¢@’)•êVdÙÄ´X¢sÙÚò_ÖÍÍæœ{{»ŞÂhuu•‘3€(#Ê¯ÈÁÁA]¹ÒÈÈÈÍE 	Fò"£ÁÁúy` |vFâu6Áebš‚½¤HU)Œ QF”_ùùùÚ»&ommQwH&¥Reé™™úüX¶¾¾JKd¡@v<RÕñ^âéé&œ<—ËÕõV³À-ˆ2¢üú%£g¥P/SSS·Ì„
+H$óÙØ¨uRdg‘ÍM99\]'0y}vwwk)ŒúûûY&eD¹IÔ2c¥äJ‡‡‡\8€¤Q,Vf3˜®Û"¯­•óyR1iU¦P¿š×§êºWÂìì,Ãc QF”›ÇÖÖƒö ºËËÊômıı(2Dä"pİ_)hzzzâg‚£ÉeD¹ÙLLL0h +(•Êççå••ºGéÙ³#/-•ïîHË$êóÊ%”Hp|ß¿Î 
+ˆ2t©(
+í$œÇÇJÿŠÅÅr*õL?F‘»ŠĞ„€——¯zÚ¹¹¹Py”N§¹,€(#Ê-åããcí$“‡‡ÊT_³³•Ïöc³zÈÎ-ºˆPŸõÓÓ×¬Í=ŠGË£±±1Ê#@”å–‰òÒÒƒö Åİ]9.ON¾HMòü|9“!E»¥%ÿ-!õ®WãôôÔ){zz¶¶¶J¥å®#´}óEyppA{ dRÅ¿z©Ó„››şckëõÎ¹¸¸èŒ¹|å€(Cû255Õ¢|ssÃ = äø+sY,,TFûA—³·\œüup¦ógIj@”e¿(7ÙVÓé4ƒö :‰|¾2,oe¥arl¶‘‘Jo^(Aî1ï}2;ûJ'<??gIj@”¡íDy{{›A íN.÷e9m ?ŞÜ¬¬Ä`#%‘÷†™˜x¥®¬¬°$5 ÊĞv¢ íH>_™^@vvö™‚Äo““•.ÈLô!B‹ó½Ò	ÇÆÆX’e@”ÀÇÃCùì¬¼½]›{şR UûOOWf-ÈåHo¨B±ØÌÅù
+…ãÈQD ¾¢•1séteşµW2c³¥R•ñyGG•5G j§¯ÏG1
+ Ê€(@#)Ë××•~Æ•6ãááW4cí|¼²R™™qºğ<Bw©ÜÉ ˆ2 Ê Ğ-nø¼˜É—–*Ç´ùA#J)ÿmÆì€(¢ µòøX™5âğ°ÙZlË±œ½ékAÂY\ôßr,İ
+ˆ2 Ê à¡P¨4ŸœT¦ŒXY©ŒkìdÆÈ1´ëëşÛo{›´De€î&—«L%{pPi'^X(¿Ê4mµo££È14©zoÅÕUÒe@”ºFˆ¯®*“ïîV`f¦Òw¢§§•N¬£ñ+¡Êf™°Z€ÔÊ¼w¦Ôe@”’Ãı}E7+Ş¹¾^)é''[Ók"f®L—NWK±8´œĞâ|SS¤ Ê€(tb–bÃòøU^¯­U¤sbâu§(~á&a››«ôøÌd0ch;no›¼8 ¢_annQ¨‰R©"ÁWW¡<<¬xğÆF¥Ãîôt¥ëp»5‡¶şşJSÜêjyo¯"ô¬Cí_ùôŞÉ==L¥ˆ2¼:KKK^Q>;;#q »	¾½ırc°HäÖVyy¹ÒÔ*Z)œJu†£Å<¾ê«ü·÷Oÿ4iˆ2´F”™¢:Ó lÜW*~rKïîVôwm­Ò<;[1È‘‘Š·Ã˜¹†l•Q€Áııòå%ı( !„V±ş‘!m QD \i
+ë5İe;=­ˆ¯l"¾²­¬|¹„iımçÁr'ñ•ˆïìT&T¾ºB‹!±ü¿ã
+66H@”Q†ÎçññËšk¦}0²{tT1İıı·dwa¡"»²v‹òÆo}}å±±ÊˆÀõõJZe2å»»Jc9@÷ğõ_ï:¾ë»H@”Q†¦ M¶f»¼ü²ÎÚRk¶íí/«­¨›¨­ÙLk®lfX›ÙÓ¥¡9B,uIÆååJ
+W.]Š„¿÷÷üOÍOş$iˆ2 ÊŒİ’İîîŞ’Qg3S+8›¶¿ÚÛææW„ÕŞŒ¹ê66ö…•-ÔííU‡ÖÉU˜­4ŸË…“z~^éEÍB 1ÈÃâ} (§ Q†¤‰r.÷–)^]y1j‡voTïf7m†¶ùyWC›yé_ukíJÂlí¹õöVîÉÉÊt««•ÄGG•»Z*EÅ" ¢ˆ2$N”ÍKù››Jy~şÖûw»-S_¾Û¢I³%[’¶ÁÁÊí-7¹Üğkk•§@…³³JÇkyFPa D QNª(Ï›7xóæÃoŞüŸoŞ|îk¾æ±¿ÿKãoàFl]²ıëoÉ=ŸùŞóßıûÿznî¿şãüÉïşîÌÆÆÇø‡?ú“?y ­@Fï3›]^nü¹XÄe‰ò=¶Ä–¬Mné»7o.Ş¼ùå§àO¾yóCoŞüooŞ¼ÿÍ›øæÍÔ›7£oŞ½yÓû Ú—
+<àï…smmm!€(ƒ_”/P+¶vİ¬÷şé.•íãOâûá§ô‡^†H‘ù-Oî;üä¾ €(#Ê€(C#Eù£Ûël…w5WMW¶X­¼²}×S±÷O²«m½ƒ8 ¢Œ(¢­âàà`é]N¾ækPº®İr–ËÚ:+Ûÿõnó­İˆ«}Ì6õî6ö$¸C4ë ¢€('‰_û¦oÂŞG6fË¾í£ÎöÑ·õÔl?fyªWXuû‡–¼šmÄRØ!:æ ¢Œ(¢µóñÀÈâFm¥ˆ)Fíğã>;	¢ÙşwŸ&:ÛwD¬1´¾m“¡­Ÿ²  Q@”»‡Ÿı'ÿ$fÕÍÛoá?ğ”y}¿ïåûÍ–  Ğ ¦­$cˆ2 ÊĞLşË/üÂÅÔÔ/½÷½?ÿşÑáÒÒßy'½¾¾  Ğ\\\ €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(     Ê     ˆ2     ¢    €(CÇP*•ÎÏÏ×ÖÖ¦§§‡‡‡‡††&''———ŠÅbòâ»»»»µµ%ÿré;ÓÓÓ¹¹¹‘‘¹K§¦¦ö÷÷cv¾¾¾ŞzBş éb’Ô¤R¡PhøÁ/..ÌÁ›\.·õ.ù|şy™áÆÆÆìììØØ˜Üf£££333ò‰Ä%ş·GsŞûûû×‹ \&s¹pöçæC²5 D¬È¢ƒƒƒoÄ»H'"…ŸDMşmTîìì\]]q;½6"+Îı)ŸÄ‹‹Ù­i–Ö‰,--™TŠêİåååúúúK.êf.µšæDgssSo9{]òŞŞ^Lf(Ÿœœ„ q4»UUê— —ÉœE.Ü[åîÊÖºÇÇG¹Õ¥–ER ¢_áááazzÚ.L+ åıùââ¢”"ˆrñã‘‘‘×.A¸¹¹qnÔÉÉÉ³³3Dù5D¹X,.//¿\p›,Ê’MÙ¦+õü3®|>/·“éõõõMLLH°å_ùÛş*Ty@”;”L&cn›W} €(w^zttÔä­½½½R9•iÉ2LI_6t¹(« Ê¯ÍŞŞIêùùùíQ®…S=¶;*¨u–(‹ñ˜ÓÍÌÌ˜?b€í&SİzzzD@£}uä×c
+Ş­es¸¥RW@”»ÅÅEmt¹¹¹	í&å–ÙlQF”[…&u-êƒ(7ÊÆ^(¸Z½ËlB°¥eN§ïj9ïìì¬f†ñ¹\:6{¦R©hèÖŠ2 Ê€(CÃ|\›Oªsš››kfQ‡(C£’Qn¹(kV³¶¶öÚa~xxèíí•sMNNÊµ+ÅíímÌ¯ÎÎÎ43¬e¤Zu´4¢Œ( Ê	AóúZJ/m›I¥RŞqñÅbñüü<N›a×ÇÇÇRby%{Ş?a&Ó(•J™Lf{{ÛÖ¾»»sv>991Ç<88ğ`—ÉÑ´ÓˆÁÌh!Ç<==MÙQU”å8ûûûæÔ{{{NÀ’rjI@“8kµh¯ 3^ÓG"JŸÇÇGû æ‡;;;ò+ùy--ú’GGG:ş½êOœ°‰PÆ[…¹Ö&HfoâÔˆœ]”BÏ.!÷¦1iMêª³48¢lßo1é)wZèRšƒ˜oRB.ê•µoEQ1çPR;5±®å²Ê‘å1Á6—UÍ6sOja/KN­ÏW¨Jl"û®“¿%T&é&&&4µõùŸMÂìc.¥<¦®ryyiRÉ<h/«¯¿$Êò_É4jé6¦>½¹¹YËY$fÿÑÑÑŠ²¤­üJSC¢Ê(B¢l'»÷ŞĞìT27½IœûÖ¾Ã%;ÒÛÕ¾™½ùªæ]š·ë½ÍBegyŠ5©:9‰ü\®¦Ş'1;ÑÇPsroÁdv}!·½ı Ê]Šä˜===ú‚²–ŸH&%ÅƒW%ÛpÆ†›~~Ñ\I›—äÉ’œ!ƒÂòò²9‹h®sX9¦ø™·%@”W~µ²²â­¯¯Ï;eGŒ(K¬¥|è¤•6p:8™¬Ñôéíí•Â[Ë¡¨ØÉAÄG£é#Ÿˆ[„ônaaA¯¬ı9”÷'’8ıııÑ(Œ{•E®µwQg(DÖ;Ã€ZNaš‚ êœ¶(ëx›±±±h¡«7€·¼5µš›JnH¹¬r!œŒŒ˜ˆ\&g­9”×$U£;k'©W8ûë=)‹Do<¹RÑŠÓœ¦Œ¦¶<Ñæ“Û T•ôt4ÎÜ3Î"½½MB9³Õº0÷dt¦YòPhE¤ô‘U_£lllHòFëiÏe3ß‚3^P3=ÉŒ¢ŞÁ|’7Êµ3IayuuU¬÷môøòÔÈßÑüP‚*%BèY“¸Ë³fk£2rß:‘•°…æV’dw¯šGÅ?†r"©Ù™7·7O ¢Ü½H9ÔñÑ’İhE\‰Ûù£x‰S*«(KI£J'»Ù™¸|¥y®ìãd¸R>yEYC"…¥äZdzÛ“B¢|rr¢!‘?Ä¢$;N¥RÚ n7şÕ"ÊöhHÑÑ;`r|§lÖˆ‹’júˆîhL0¢ÕIgÛŠä,r.»4Š=ÚŞŞ¶­K
+	F?úÚ¯\2g	Uí®,wv‘7w¤³¦2á±ë/e»8”ÀÛ)#;BüQ–ûP’El×+dù­FÓ¹¬Ñ¢’zH:Ëåš:®ï<zD;ìøÚÏ—œ×¹ëjå²Õ+¤³ò¸9²(wš;Ò¨™çB²;5¢u€Úz¥j¡ª*…úŞh#tCú•=C”íAÕæb™\Â¾dvŒêe'—6©­÷¿ŞQ^Q–+®¹Šs3G“TŸ5¹ôâJ`ìªûÎÎöY—:7stÉoõ®ãÈ“eß'òIt¸Bô1”ıÙïQe@”Áƒ’ä&/9Îêêª½’ai5]¤MßfÛ¤Š²Éæ¤roÊìb±(y¨æk’‡J¾,9¯i’}´x–ìÏ[Æ›`Øå“d»š¥:…ºW”%Øº¿Èº6™°™ì^vpä)¦ã¬¦³Io‰S<ka#)`ÒGÛVífçÂIPµ:a7ÇÊ‘ÒHÙíÊ²‰‘Ó\9”Ê½”IvÙiö]³›`e½Nq^Ë(a“(ë#)c«r|î%}”ÍıfÚD5=UVVV%Ê&•ì&v1~=‘QI1s$âb„ªDv5LV½Dn?»ATnTM%¹Ş$’`HÚ¦ÓisË‰äÔ`8UGoÍP4µšíÍ=tv¶˜J¸ÄÅ„DB˜ÉdìÏ5üµOë¦è%[²uûf¶Q“6½5š/ÊÚ¡Èiì—Ô‰WË´ŞºDYGJ’j6èä!Q6w¦\h}ä%„šw9×ÈyÖä¦5÷DDg¶–\]¾²Ë‹|>¯y»éYnC…^RIŸ\9 ¶#HVû1”‹®Ï”œHïsùÖygEe@”á-Ô„âkˆG_°J^}™+™ –v³Ÿ-ÊÑ6NÉ×4#s:ØÓ£Úo<5ƒ“3ú]J¯OxEY,EK4¾Úßqqq±{“|Y_ûzÓG_©Ûo6Ñ609ú¥ı¹.Ãá„MEM8z¢h“Œ„M›¸´?€¶Åï_ËÒnRD™”‘£İsåhZp:ğBQv_í6ÈĞğQ6ÍùÎ‹~;ÑXzùìO›„¥:êuMÕh»:a·úGSI­Ñé\[—(Ë2š+—/ÚwHOÓØ/7dŒ›êÕ¯«÷‚$ˆ‘*y4ìÄ·óïÍsjŸJ¥¢,	¨¹„÷ÙÑ{ÃN«ÚEY©ÉÍ…äéS÷Š²÷v•äÕ[İNRû&ö£Ğ,BÎè¨­^;ùÊ¾vZ‡ñö—ÇÙ[?×°É•Öµ4×uº Ê€(CÙ›)ÔµlU¨!Ä«•e«óŸ”èša©(Û*Úğà}ª%¨—i\B£µíÍv²¨(kh£tœ¼^rs»HÙ›6š†Zª´¦!!Œ6¶ÔÚèûDUXIFãLRâ†<Uû9h»”¶3y»ÊnR‰Ğh¹¥íıÑ¾‰FœıkiN]2­c8*öQ5(j#}E9Úm@êêÑ±V*—¶KÍD
+u9fhl¥÷qĞ$
+µî›FD§¢U—(—­ÎÑ›Aï´áˆŸCÜK®š<­QAµiyy9äšÎ{çª…n*¹/Â8O\½¢,W®£<Ô¡q„zoØ/je­Ş‡ÚDô­`H”½CíaµÑgMj&Ñ¼]ïï4ÏÑ'N{Ã{fĞ÷–öHA½ öËŠhıÓ)ûe@”¡ñ¢ìŒ›‰o_Ñ†-#¥xˆiµÚåeúahˆ›ÓÖ¨(kWÅ˜4Ñ¼ŞnÙ›¶TÅ—ÔĞÑÂ&ZŞ‡JmŸ³…;¤Zk[»œ]â^uáVgÿª£ÔcĞF˜>ÍÚ˜dw[|‰(‡DAÓÓÑEÙ›8ê1âX×l_^%Õ$ò>Av _"Ê:ó•¶ÆÏ(§Õ1!¹./™5%zSEßQØïa¢5Éª¢l7”Fq~Õğéáô¹óŠlUQÖÚTèYóŞ{züPu]o3û­—&”W…õ'R¬%o×,+f^&oí]/¨·Ò®é‰(¢55¿dfSí¦³š¥¶±i¾ìmİ‰Ÿõ6^”C­ê‘v·„¨(kG)Z¶hã´íÜ!{Óş[a4O×i
+„|=ªGZHSÉ®ŸÈşv‘/5±)H¼Œ$¯6fkgq³½}Iµ§lÌµ´ßW¼D”½á!'~¡(Ç</^ƒ¬E”å¢ˆğIµAj)rØóExE94v­!¢lß<v«öY«é$:ò JìêjE®]ì´é1ji‘hÏœ–ˆ²¤§¸¾œT2O9šö_(ëÈÑĞ³&	süP…Gó¯({[ÇãïÌè¨o¥
+ÊÖ´`dæLú¬!Ê€(CÚßÔÛ¬[ù|Ş;´®jæÊ§^(ÊŞ†º˜L?*ÊšçÖ‚İ<²·7õ Í`UE9š¡É7¼Ø‰ Q›½mDñEÅ¢-sõî_ÅŠŸqÅ›¯±àHÃE¹¯¯¯¢|}}½¼¼ìF­µ¢¬¯°í¦k“nr?Tõ]ÙÁŠÁ½KÄz§‡«ıˆv¬Ò`Ät‘Š*šV"Ê…BA’Ñ™÷Ãáy¢¬Ù«>u‰²÷±ŠÏ»êe{”vUìÀÇÏ‘(¢5¡¬1~épvvfæÔtrÒP×Ï&‹rŒuÕ(ÊZÂU£{³§·«Šöy‰(K¡XõDÑ·¢ççç¢bŞÙ‘½Ë4d2	Cíûw›(‡âõQÖÎµNã«\Äƒƒƒø>Ê¯-Ê:E±ª§v¨¨½‰ÜökkkÑ	wÍ(…Zú»¼³qW­”:ï.êšNSìå¢,á‰>MRİ2-©Ú¨ñ<QÖY#:W”kÉíœQD@©TÒ¦‹ªëW´ ™ªBP‹îhIÿÚ¢ìNòÖ
+â»^èÁCksT­xE9¾kJ‚Ÿ:,/4ª²FäNøÿÛ»_ì¸‘6ŠÃ[0Èf	Y‚Aàdæ†ôÜÓï™{ŞSÿZRZİä÷€9ß|Óİ–JRÕU©T¥Ğ ç=<C¿¿¿¯??eúÛh¼³ŸññÜaùWeV¯’±¶_(÷ÔÇ(¯”·iøDÔ!~Gsî´İ#şğáÃååeîRxßå×İ^¾|9æä‡!Å½¢ß©Õ	9}äı¡‚²ş¢³ì«W¯t¶kwòfŒÇOzÑëã×Ïye¿e8w6‚2Ê8Ï×{i,óŒùÕ4÷â³zÆM÷˜®”ïú7Ç/óyH\=iİ² ìÇå³Ş{[”=¯msn¸ı<zJ7[	uğB¡ù±õ MònæfòL‚²£ÕzAÙ3™ÆÎzÜí©‚²jŒIÃ:ı!US¬Q7ëy—óúøÊu!×+ğy˜róÅ‰Uƒ²»tá4‡û¶_|™¯÷®ó8ˆŸ0(Oy»š ‚2VäÆ¾^€­æ—Ør½éö©×‰è‡³y’¯õ‚r/8ó§‡s«_LzŸ©	WPÛ“ûÌzéÍ~½¥Y7›M¬Ÿ§Oú)ó‚ ìñâƒU…õ³ú[:.%µĞ:šJóÍæYI¢htõymjïe)ßJóU÷ŠqÜî™z‹ûŸ£å¢¯´à7™ÖÊV¢Wz¶˜Vå˜AÙSë¬ğ	Ğ›æ,SÒ˜¾Û»‡œ2²Ö'jT2ªÇö.@í{×bJ_ûÓû/{“=ÏÊş|s.³mzñzYPö¹Ú{o{<=Ü	ƒ²Ÿæë|ÿş}TÈyn‚2Ê8˜<¬—•Õº¦.Qİä¶¼Ù©ì<”WğZ/(k3ê˜¨ S¯µÑ¬Ls8k¾KôãÇ7ÉÍ>¼â†Á­¯A³	÷àÈÍåmê¹oÆÇ#ïšïš;ë æéxêef·9¡{¼ÌG½ö^Q2ÅdÀGÊNu”Ï««!(÷îL<0£(eß€æzós—Ø”¹Şü­æ’®â€1¥GÙCx§œx>¯êcä[#]İÚªÁ|,ÚÁüâïªAYw‰¾Z”½0MsqŸ½œ0(oÓ¸‘æ”5¹pòí/åÁl Aù¯óôôäšHÕ¥q®#ÔT¨îöãİfó°?},wé»°¨
+:¯˜°^PI<ò<©ª=}‹¢feêùÕNŸWëè²*«ø[Ñ1üs'ş“v¿~ıºJÕÍÅi—e¯½#Lr3¯qŒÖfÔ9^ETô›ê+>îî÷ }¾hKòç÷ÎVÄnmRÑ…ãÅiõÏ¢i?ZPÖÑ÷;UùæP'¹Ÿ®¬”ë¡:¸yeãõ‚²·Y…go}#êd/Ü=å è[^¾ˆÚ;
+›2y¥‡ñô¨ÑÊåVü]İLæºN÷'ŠËù<×¡×ŸĞíe.yıõ¢S|nPö†êŠ"ëªtS¬šµ„µ/•¶gDí¯.í½KXŸ6(û2T™YY‡ÒfŠ¥Ô—e÷©™Ó˜ş")@PşÃ©–w÷˜ß+şª(&*j¾X£ÚÊ#•ˆUa©öQÕïÆX\‘8×Ê±ÁÚ~5´ªìhÜ¤Õ-n¯2õx‰hõÅâ§êîó¼(w1PÅ›oEô;ú5ıf¸XcYPÎ]k±_*ı‚vÇ.
+¸ÅoîTÖ¶©Ö!ÖWŞ¾}ëßŠ¹ñvº->ï?¡fuâœÊ.9Q2:sò<hõÓ£eíEŞ}FÅ®]G
+*–¸E\õe>^UiëH©4”lTæñWâÔ2”‹iéšÓYä|Ù›¬zĞ©3çè¢ˆÙ¾]Ÿh;÷.‡îGÅ²Õ¾Ï©{ u];£gÚ¤}Òjƒë³}nPÖ=ƒgJÖ¡ƒ®§{]¿#ë£œçš”s
+ôü¿}øÎ0(oÓcÉ(Uú]¹ĞŠ{•eAÙı¶w$@Pş[ÄÛ3®wšÓQÆí}lÅëÖb½ |wwWÏ3¥ıjN:¨Lonnz¥¡PØl¼İe[JÎ/ºÕÛVgÁÅA9:`Üƒ^¨»´ÉÀ;[Üè_óÄŞÏï} Q¬:‘£Is@ÈÑ‚òv7Ò&÷ç™‚‹v3¾µjPVë•¶¦2¢qæi”urFÌO$Ì£`‹õÆ§då:€:½í]*2wÇNy#¹î¤lş	gÓ&…råÎŞèêÓÃ©›Ó'ëş3D×i~qnP XTú}İ]ŸíË|¹À·âõ‚õX”uê}F‡Z[ (ÿ!”Z>ş¬†GÄ?;ªƒÔL\wMmöõõµ¾ßÕï¨öo~QõÚ§ækR
+sñ_›#cÁ*Éíq®a7›jUwmƒş©ˆÜkÏÔ^êwz7 jô;Ê±;ú)íİ`=íé—/_´×ÚZı‚¹bMôLÇ^^^ê÷›=.ŞŸk‚©t•âéhÆA»ïß¿ÇWŞYıë` ŞÜÏé‹¹d´å*É^ï Ê$ö}úD"ã3j»‚Ò+Ï8¬J«Ş6ÏoïÇ'Uü•æPT_ÍQ¤:¯zGSÇZßÊ=Ê.¢ŞşÆFaepRéu€tbk÷›¯¥:T-˜tEßÕ}©.×9ºiŸ1Ç;Û¼T?ıoğ-ı'í¬¯£8Ïµm:Æ]×>fÍu£«|M©$uûá{rÕ'ñ›‘:LÍ&şÏŞ¨}÷ÖvÆ88ê4Ë©qpºö.«qİ5>3ÇÕšŠBâ+Qç‰*äŞ<ãËpĞ ©@ôW®®®t¶ëXÏß ‚2~W¼­œŸY/˜>Gè!pû/ÎÂ€ ‚2€R/<„S‰áÏ=ëMâéá=Œ4 Ê (8$Å¯eËôà8<Ï îgê±pwww1Lüùóç_Ã@PA@×ÃÃÃ›7obO¨²w†
+œŠ'ñ¼¸¸øøñã·oßîïï¿~ıúîİ;¿L9er= e”L¨ß…­æ48õ Åáë-
+€ Œ?ÁÍÍM¼
+=ë5s ‹y­‡/^’Ïßf³¹½½õQós€«««é†  ( &yØ¡~»ÄüïCe ‚2   @P   Ê    A    (   e   €    €    ”   ‚2   @P   Ê    A    (   e   €    ”   ‚2   @P   Ê    A    A    (   e   €    ”   ‚2   @P   Ê    A    (   e   €    ”   ”   ‚2   @P   Ê    A    (   e   €    œ­ÿ ‹/ÛÑÄ¤q\    IEND®B`‚
+------MultipartBoundary--0UPyPELIfZDyyq4VN8f8Dh4UKw0d0KFf77ZALnnyTt------
